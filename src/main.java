@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 /**
  * PACKAGE_NAME
  * Created by Admin
@@ -5,6 +7,8 @@
  * Description: ...
  */
 public class main {
-    /*System.out.pritln("heelo")*/
-    //hello
+    public static void main(String[] args) throws IOException {
+        Dict a=new Dict();
+        a.ReadFile();
+    }
 }
