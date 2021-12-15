@@ -28,23 +28,30 @@ public class Dict {
             String str = String.join("", h);
             String[]a=new String[1];
             a[0]=str;
-            System.out.println(a[0]);
+     /*      System.out.println(a[0]);*/
             return a;
         }
     }
     void ReadFile()throws  IOException{
         String thisLine=null;
+        String temp_key=null;
+        Vector<String>temp=new Vector<String>();
         try{
             BufferedReader a=new BufferedReader(new FileReader(NameFile));
             while((thisLine= a.readLine())!=null){
-                Vector<String>temp=new Vector<String>();
-                temp.addAll(List.of(xuly(thisLine)));
+                String[]Temp=xuly(thisLine);
+                if(temp_key==Key) {
+                }
+                else{
+                    temp=new Vector<String>();
+                }
+                temp.addAll(List.of(Temp));
                 dict.put(Key,temp);
-              /* System.out.println(Key+ temp);*/
+                temp_key=Key;
             }
             Set<String>tempkey=dict.keySet();
             for(String tk:tempkey){
-               /*System.out.println(tk + " - " + dict.get(tk.toString()));*/
+              System.out.println(tk + " - " + dict.get(tk.toString()));
             }
         }
         catch(IOException ex){
