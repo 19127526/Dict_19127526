@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -12,6 +10,7 @@ import java.util.*;
 public class Dict {
     public TreeMap<String,Vector<String>> dict;
     private String NameFile="slang.txt";
+    private String History="History.csv";
     public String Key=null;
     Dict(){
         dict=new TreeMap<String,Vector<String>>();
@@ -30,6 +29,22 @@ public class Dict {
             a[0]=str;
      /*      System.out.println(a[0]);*/
             return a;
+        }
+    }
+    public void Writefile(Object[]temp){
+        BufferedWriter a=null;
+        try{
+                a=new BufferedWriter(new FileWriter(History,true));
+                Date d=new Date();
+                a.append(d.toString());
+                a.append((String)temp[0]);
+                a.append(",");
+                a.append((String) temp[1]);
+                a.newLine();
+                a.close();
+        }
+        catch (Exception ev){
+            ev.printStackTrace();
         }
     }
     public String[][] readfile()throws  IOException{
@@ -60,6 +75,7 @@ public class Dict {
                 i++;
                 /*System.out.println(tk + " - " + dict.get(tk.toString()));*/
             }
+            a.close();
             return value;
         }
         catch(IOException ex){

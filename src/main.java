@@ -8,7 +8,6 @@ import java.io.IOException;
  */
 public class main {
     public static void main(String[] args) throws IOException {
-        Search_UI a= new Search_UI();
-        a.createUIComponents();
+        Menu_UI a=new Menu_UI();
     }
 }

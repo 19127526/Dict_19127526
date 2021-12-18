@@ -1,6 +1,16 @@
+import org.w3c.dom.Text;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Locale;
+import java.util.Vector;
+import java.util.regex.PatternSyntaxException;
 
 /**
  * PACKAGE_NAME
@@ -8,46 +18,136 @@ import java.awt.*;
  * Date 12/15/2021 - 9:44 PM
  * Description: ...
  */
-public class Menu_UI extends JFrame {
-    private Button search_button;
+public class Menu_UI extends JFrame implements ActionListener {
     private JPanel panel1;
     private JPanel panel2;
+    private DefaultTableModel mode;
     private TextField Search_text;
+    private Button search_mean_button;
+    private Button search_slang_button;
     private Button edit_button;
     private Button delete_button;
+    private Button random_button;
+    private Button reset_button;
+    private Button history_button;
+    private Button add_button;
+    private Button game_random_slang_button;
+    private Button game_defini_button;
+    private String[][] Value;
     private JTable table1;
     private JScrollPane scrollPane;
-    String[] columnname = new String[]{"Slang", "World"};
+    private Dict dict;
+    String[] columnname = new String[]{"Slang", "Meaning"};
     public void menu_ui() {
         try {
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            /*setLayout(new GridLayout(7, 2, 15, 15));*/
+
+            JPanel panel3=new JPanel();
+       /*     panel3.setLayout(new BoxLayout(panel3,BoxLayout.PAGE_AXIS));*/
+            JLabel text=new JLabel("Dictionary");
+            text.setFont(new Font("Serif", Font.PLAIN, 70));
+            panel3.add(text,BorderLayout.CENTER);
+            add(panel3,BorderLayout.NORTH);;
+
+
             panel1 = new JPanel();
             Search_text = new TextField("Enter");
-            Dict value = new Dict();
-            String[][] Value = value.readfile();
-            table1 = new JTable(Value, columnname);
+            dict= new Dict();
+            Value = dict.readfile();
+            mode= new DefaultTableModel(null,columnname/*Value,columnname*/);
+            table1 = new JTable(mode);
+            table1.getTableHeader().setFont(new Font("Serif", Font.PLAIN,20));
+            table1.setFont(new Font("Serif", Font.PLAIN,20));
+            table1.setRowHeight(30);
+            table1.setDefaultEditor(Object.class, null);
             scrollPane = new JScrollPane(table1);
-            Search_text.setMaximumSize(new Dimension(table1.getMaximumSize().width, 20));
-            scrollPane.setMaximumSize(new Dimension(table1.getMaximumSize().width,200));
+            Search_text.setMaximumSize(new Dimension(table1.getMaximumSize().width, 1000));
+            Search_text.setFont(new Font("Serif", Font.PLAIN, 20));
             BoxLayout box = new BoxLayout(panel1, BoxLayout.Y_AXIS);
             panel1.setLayout(box);
             panel1.add(Search_text);
             panel1.add(scrollPane);
-            add(panel1, BorderLayout.WEST);
-
+            add(panel1,BorderLayout.CENTER);
 
             panel2=new JPanel();
-            SpringLayout layout = new SpringLayout();
-            panel2.setLayout(layout);
-            search_button = new Button("Search");
-            panel2.add(search_button);
+            panel2.setLayout(new BoxLayout(panel2,BoxLayout.Y_AXIS));
+            search_slang_button=new Button("Search with Slang");
+            search_slang_button.setFont(new Font("Serif", Font.PLAIN,20));
+            search_mean_button = new Button("Search with Definition");
+            search_mean_button.setFont(new Font("Serif", Font.PLAIN,20));
+            edit_button=new Button("Edit");
+            edit_button.setFont(new Font("Serif", Font.PLAIN,20));
+            delete_button=new Button("Delete");
+            delete_button.setFont(new Font("Serif", Font.PLAIN,20));
+            random_button=new Button("Random");
+            random_button.setFont(new Font("Serif", Font.PLAIN,20));
+            reset_button=new Button("Reset");
+            reset_button.setFont(new Font("Serif", Font.PLAIN,20));
+            history_button=new Button("History");
+            history_button.setFont(new Font("Serif", Font.PLAIN,20));
+            add_button=new Button("Add");
+            add_button.setFont(new Font("Serif", Font.PLAIN,20));
+            game_random_slang_button=new Button("Random Slang World");
+            game_random_slang_button.setFont(new Font("Serif", Font.PLAIN,20));
+            game_defini_button=new Button(" Random Definition");
+            game_defini_button.setFont(new Font("Serif", Font.PLAIN,20));
 
-            add(panel2);
+            search_slang_button.setActionCommand("search_slang");
+            search_slang_button.addActionListener(this);
+
+            search_mean_button.setActionCommand("search_mean");
+            search_mean_button.addActionListener(this);
+
+            edit_button.setActionCommand("edit");
+            edit_button.addActionListener(this);
+
+            delete_button.setActionCommand("delete");
+            delete_button.addActionListener(this);
+
+            reset_button.setActionCommand("reset");
+            reset_button.addActionListener(this);
+
+            random_button.setActionCommand("random");
+            random_button.addActionListener(this);
+
+            history_button.setActionCommand("history");
+            history_button.addActionListener(this);
+
+            add_button.setActionCommand("add");
+            add_button.addActionListener(this);
+
+            game_defini_button.setActionCommand("randomdefini");
+            game_defini_button.addActionListener(this);
+
+            game_random_slang_button.setActionCommand("randomslang");
+            game_random_slang_button.addActionListener(this);
+
+            panel2.add(search_slang_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,35)));
+            panel2.add(search_mean_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(edit_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(delete_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(random_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(reset_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(history_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(add_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(game_random_slang_button);
+            panel2.add(Box.createRigidArea(new Dimension(10,30)));
+            panel2.add(game_defini_button);
+
+            /*panel2.add(Box.createRigidArea(new Dimension(0,100)));*/
+            add(panel2,BorderLayout.EAST);
 
             setTitle("Menu");
-            resize(700, 700);
-            setResizable(false);
+            resize(1000, 600);
+            setResizable(true);
             setLocationRelativeTo(null);
             setVisible(true);
         }
@@ -58,5 +158,62 @@ public class Menu_UI extends JFrame {
     public static void main(String[] args) {
        Menu_UI a=new Menu_UI();
         a.menu_ui();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        String command=e.getActionCommand();
+        if(command=="search_mean"){
+            String temp=Search_text.getText();
+            mode.getDataVector().removeAllElements();
+            boolean k=false;
+            for(int i=0;i<Value.length;i++){
+                if(Value[i][1].toLowerCase().contains(temp.toLowerCase())){
+                    k=true;
+                    mode.addRow(new Object[]{Value[i][0],Value[i][1]});
+                }
+            }
+            if(k==false){
+                JOptionPane.showMessageDialog(null, "Nothing!", "Nothing", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+        if(command=="search_slang"){
+            String temp=Search_text.getText();
+            mode.getDataVector().removeAllElements();
+            boolean k=false;
+            for(int i=0;i<Value.length;i++){
+                if(Value[i][0].toLowerCase().equals(temp.toLowerCase())){
+                    k=true;
+                    Object []Temp=new Object[]{Value[i][0],Value[i][1]};
+                    mode.addRow(Temp);
+                    try {
+                        dict.Writefile(Temp);
+                    }
+                    catch (Exception ev){
+                        ev.printStackTrace();
+                    }
+                }
+            }
+            if(k==false){
+                JOptionPane.showMessageDialog(null, "Nothing!", "Nothing", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+        if(command=="history"){
+            super.dispose();
+
+        }
+        if(command=="edit");
+
+        if(command=="delete");
+
+        if(command=="reset");
+
+        if(command=="random");
+
+        if(command=="add");
+
+        if(command=="randomdefini");
+
+        if(command=="randomslang");
     }
 }
