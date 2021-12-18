@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class main {
     public static void main(String[] args) throws IOException {
-        Dict a=new Dict();
-        a.ReadFile();
+        Search_UI a= new Search_UI();
+        a.createUIComponents();
     }
 }

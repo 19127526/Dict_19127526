@@ -10,7 +10,7 @@ import java.util.*;
  * Description: ...
  */
 public class Dict {
-    private TreeMap<String,Vector<String>> dict;
+    public TreeMap<String,Vector<String>> dict;
     private String NameFile="slang.txt";
     public String Key=null;
     Dict(){
@@ -32,7 +32,8 @@ public class Dict {
             return a;
         }
     }
-    void ReadFile()throws  IOException{
+    public String[][] readfile()throws  IOException{
+        String[][]value=null;
         String thisLine=null;
         String temp_key=null;
         Vector<String>temp=new Vector<String>();
@@ -49,14 +50,21 @@ public class Dict {
                 dict.put(Key,temp);
                 temp_key=Key;
             }
+            int i=0;
+            value=new String[dict.keySet().size()][];
             Set<String>tempkey=dict.keySet();
             for(String tk:tempkey){
-              System.out.println(tk + " - " + dict.get(tk.toString()));
+                value[i]=new String[2];
+                value[i][0]=tk;
+                value[i][1]=dict.get(tk.toString()).toString();
+                i++;
+                /*System.out.println(tk + " - " + dict.get(tk.toString()));*/
             }
+            return value;
         }
         catch(IOException ex){
             System.out.println("Error opening file");
-            return;
+            return null;
         }
     }
 }
