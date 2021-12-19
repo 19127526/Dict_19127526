@@ -130,7 +130,6 @@ public class Add_UI  implements ActionListener {
         add_slang.setResizable(false);
         add_slang.setLocationRelativeTo(null);
         add_slang.setVisible(true);
-
     }
     public void set(){
         slang.setText("");
@@ -155,13 +154,24 @@ public class Add_UI  implements ActionListener {
         if(command=="overwrite") {
             try {
                 dict.Writefile_data(temp, temp1, 1);
+                JOptionPane.showMessageDialog(null, "Success Overwrite!", "Success Overwrite", JOptionPane.INFORMATION_MESSAGE);
+                confirm.dispose();
+                set();
             }
             catch (IOException ev){
-                ev.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Error!", "Error Add", JOptionPane.INFORMATION_MESSAGE);
             }
         }
         if(command=="duplicate"){
-            /* dict.Writefile_data(temp,temp1,1);*/
+            try {
+                dict.Writefile_data(temp, temp1, 2);
+                JOptionPane.showMessageDialog(null, "Success Duplicate!", "Success Duplicate", JOptionPane.INFORMATION_MESSAGE);
+                confirm.dispose();
+                set();
+            }
+            catch (IOException ev){
+                JOptionPane.showMessageDialog(null, "Error!", "Error Add", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
         if(command=="ok") {
             if (!temp.equals("") && !temp1.equals("")) {
@@ -177,9 +187,12 @@ public class Add_UI  implements ActionListener {
                     }
                     if (k == false) {
                         dict.Writefile_data(temp, temp1, 0);
+                        JOptionPane.showMessageDialog(null, "Success Add Slang Word!", "Success Add Slang Word", JOptionPane.INFORMATION_MESSAGE);
+                        set();
                     }
                 } catch (IOException ex) {
                     ex.printStackTrace();
+                    JOptionPane.showMessageDialog(null, "Error!", "Error Add", JOptionPane.INFORMATION_MESSAGE);
                 }
             }
         }

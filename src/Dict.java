@@ -50,9 +50,12 @@ public class Dict {
             }
             value=new String[t.size()][3];
             for(int i2=0;i2<value.length;i2++){
-                String te="\0";
-                for(int j2=0;j2<value[i2].length;j2++){
-                    if(j2==2){
+                String te="";
+                for(int j2=0;j2<t.get(i2).length;j2++){
+                    if(j2>=2&&j2!=t.get(i2).length-1){
+                        te+=t.get(i2)[j2]+", ";
+                    }
+                    else if(j2==t.get(i2).length-1){
                         te+=t.get(i2)[j2];
                     }
                     else {
@@ -127,9 +130,6 @@ public class Dict {
             return null;
         }
     }
-    public void writefile(){
-
-    }
     public void Writefile_data(String slang,String word,int check)throws  IOException{
         BufferedWriter bw=null;
         BufferedReader br=null;
@@ -167,23 +167,24 @@ public class Dict {
                 return;
             }
             if(check==2){//duplicate
+                bw=new BufferedWriter(new FileWriter("1"+NameFile,true));
                 Set<String>tempkey=dict.keySet();
-                temp=new Vector<>();
-                temp.add(word);
                 for(String tk:tempkey){
                     if(tk.equals(slang)){
-                        temp.addAll(dict.get(tk));
-                        break;
+                        bw.append(slang+"`"+word);
                     }
-                }
-                dict.put(slang,temp);
-                for(String tk:tempkey){
-                    bw.append(tk);
-                    bw.append("`");
-                    bw.append(tempkey.toString());
+                    else {
+                        String tmp = tk + "`" + dict.get(tk).toString().replace(',', '|').replace("[", "").replace("]", "");
+                        bw.append(tmp);
+                    }
                     bw.newLine();
-                    bw.close();
                 }
+                br.close();
+                bw.close();
+                File a =new File(NameFile);
+                File b=new File("1"+NameFile);
+                a.delete();
+                b.renameTo(a);
                 return;
             }
         }

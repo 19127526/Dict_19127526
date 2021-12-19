@@ -222,7 +222,10 @@ public class Menu_UI extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "Empty", "Empty", JOptionPane.INFORMATION_MESSAGE);
             }
         }
-        if(command=="edit");
+        if(command=="edit"){
+            Edit_UI edit=new Edit_UI();
+            edit.edit_ui();
+        }
 
         if(command=="delete");
 
@@ -231,7 +234,6 @@ public class Menu_UI extends JFrame implements ActionListener {
         if(command=="random");
 
         if(command=="add"){
-            String temp=Search_text.getText();
             Add_UI add=new Add_UI();
             add.add_ui();
         }
