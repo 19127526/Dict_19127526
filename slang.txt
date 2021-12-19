@@ -1,38 +1,12 @@
-Slag`Meaning
+ HK`Hong Kong| Hostile Kids
+ MCR`My Chemical Romance (band)
 #1`Number one
 $`Dollar| money
 $_$`Has money
 %)`Drunk| giddy
 &`And
 &APOS;S`Wrongly displayed 's
-><`Frustration
->,<`Angry| annoyed
->.>`Suspicious| wary
->.<`Frustrated| angry| upset| in pain
->//<`Embarrassed| blushing
->3`Evil but happy|Hate
->:(`Angry
->:)`Evil Grin
->:D`Scheming| Maniacal
->:D<`Hug
->:O`Angry
->O<`Yelling
->_>`Looking left| shifty look
->_<`Frustrated
 &HEARTS;`HTML code for a heart
-<#`Misspelling of <3
-<>`Not equal| No comment
-<><`Fish
-<.<`Shifty look
-</3`Broken Hearted
-<2`Not quite love (<3)
-<3`Love (heart shape)
-<333`Multiple hearts
-<3U`Love You
-<4`More than love (<3)
-<B`Hate
-<G>`Grin
-<_<`Sarcasm| look left
 'EM`Them
 (!)`Sarcasm
 ('_')`Emoticon Representing Boredom
@@ -54,8 +28,8 @@ $_$`Has money
 *`Indicating a spelling correction
 *$`Starbucks
 *$$`Starbucks
-*<:-)`Clown
 *.*`Every file on a computer
+*<:-)`Clown
 *G*`Grin
 *HUG*`A Cyberhug
 *O*`Confused| surprised| shocked
@@ -69,6 +43,8 @@ $_$`Has money
 -_-`Annoyed| tired
 .-.`Sad| unhappy
 ...`Silence| A Trailing Thought
+.22`A handgun
+.44`.44 Magnum
 .BIZ`Top level domain for business
 .CO`Alternative to .COM
 .COM`commerce
@@ -94,7 +70,7 @@ $_$`Has money
 0_0`Shocked
 10-1`Radio code for 'Receiving poorly'
 10-2`Radio code for 'Receiving well'
-10-4`Understood, OK
+10-4`Understood| OK
 10CHAR`Padding where at least 10 characters are required
 10Q`Thank you
 10X`Thanks
@@ -102,8 +78,7 @@ $_$`Has money
 1D`One Direction (band)
 1UP`Extra life in a game
 2`To
-.22`A handgun
-24/7`Twenty-four hours a day, seven days a week
+24/7`Twenty-four hours a day| seven days a week
 2B`To Be
 2BH`To Be Honest
 2DAY`Today
@@ -125,14 +100,13 @@ $_$`Has money
 2NYT`Tonight
 2U`To You
 2U2`To You Too
-3>`Hate
 30STM`30 Seconds To Mars (band)
+3>`Hate
 3DG`Three Days Grace (band)
 3G`Third Generation mobile phone network
 3Q`Thank You
 4/20`April 20th| WEED smoking day
 401K`Retirement investment plan
-.44`.44 Magnum
 4CHAN`Internet message/image board
 4COL`For Crying Out Loud
 4E4`Forever
@@ -150,7 +124,7 @@ $_$`Has money
 4WD`Four-Wheel Drive
 4X4`Four wheel drive vehicle
 4YEO`For Your Eyes Only
-5 BY 5`Loud and clear, fine
+5 BY 5`Loud and clear| fine
 5 HOLE`Gap between goalie's legs in hockey
 5EVER`Because Forever Isn't Long Enough| Longer Than 4ever
 5N`Fine
@@ -171,8 +145,6 @@ $_$`Has money
 9_9`Rolling the eyes
 :$`Embarrassed
 :&`Tongue tied| speechless
-:>`Mischievous smile
-:<`Sad| frowning
 :'(`Crying
 :')`Crying with joy
 :(`Unhappy| sad
@@ -189,6 +161,8 @@ $_$`Has money
 :0`Surprised| shocked
 :3`Cute| goofy face
 :9`Yum| licking
+:<`Sad| frowning
+:>`Mischievous smile
 :?`Confused
 :@`Angry
 :B`Buck teeth
@@ -215,10 +189,23 @@ $_$`Has money
 ;)`Wink
 ;-)`Wink
 ;;`Sad| Confused
-;O`Joking
 ;D`Wink
+;O`Joking
 ;P`Winking and sticking tongue out
 ;P;`Misspelling of LOL
+<#`Misspelling of <3
+<.<`Shifty look
+</3`Broken Hearted
+<2`Not quite love (<3)
+<3`Love (heart shape)
+<333`Multiple hearts
+<3U`Love You
+<4`More than love (<3)
+<>`Not equal| No comment
+<><`Fish
+<B`Hate
+<G>`Grin
+<_<`Sarcasm| look left
 =`Equals| Complete Transformation
 =)`Happy
 =*`Kiss
@@ -235,6 +222,20 @@ $_$`Has money
 =X`No Comment
 =[`Sad
 =]`Happy
+>,<`Angry| annoyed
+>.<`Frustrated| angry| upset| in pain
+>.>`Suspicious| wary
+>//<`Embarrassed| blushing
+>3`Evil but happy|Hate
+>:(`Angry
+>:)`Evil Grin
+>:D`Scheming| Maniacal
+>:D<`Hug
+>:O`Angry
+><`Frustration
+>O<`Yelling
+>_<`Frustrated
+>_>`Looking left| shifty look
 ?4U`Question For You
 ??`What?
 ?_?`Confused| lost
@@ -250,8 +251,8 @@ A/N`Author's Note
 A/W`Anyway
 A1`Top quality
 A2DP`Advanced Audio Distribution Profile
-A3`Anywhere, Any time, Any place
-A7A`Frusration, anger
+A3`Anywhere| Any time| Any place
+A7A`Frusration| anger
 A7X`Avenged Sevenfold (band)
 AA`Alcoholics Anonymous| African-American| Automobile Association
 AAA`American Automobile Association| Battery size
@@ -265,7 +266,7 @@ AAR`At Any Rate
 AARP`American Association of Retired Persons
 AAT`And Another Thing| At All Times
 AAWY`And Also With You
-AAYF`As Always, Your Friend
+AAYF`As Always| Your Friend
 ABBR`Abbreviation
 ABC`American Born Chinese
 ABD`Already Been Done
@@ -305,7 +306,7 @@ ADGTH`All Dogs Go To Heaven
 ADHD`Attention Deficit Hyperactivity Disorder
 ADL`All Day Long
 ADM`Ay Dios Mio| OMG
-ADMIN`Administrator on forum, network etc
+ADMIN`Administrator on forum| network etc
 ADN`Any Day Now
 ADORBS`Adorable
 ADR`All Due Respect
@@ -327,7 +328,7 @@ AFAIR`As Far As I Remember
 AFAP`As Far As Possible
 AFC`Away From Computer
 AFF`Affirmative
-AFFA`Angels Forever, Forever Angels
+AFFA`Angels Forever| Forever Angels
 AFI`A Fire Inside (Band)
 AFK`Away From Keyboard
 AFL`Australian Football League
@@ -335,7 +336,7 @@ AFN`All For Now
 AFP`Away From Phone
 AFRL`Away From Real Life
 AFRO`Hairstyle from Africa
-AFS`Always, Forever and Seriously
+AFS`Always| Forever and Seriously
 AG`Aggressive
 AGC`Automatic Gain Control
 AGG`Cool
@@ -409,8 +410,7 @@ ALT`Alternative character in RPG
 ALU`Arithmetic Logic Unit
 ALV`Asta La Vista| goodbye
 ALWP`Actual Laughter Was Produced
-AMA`Ask Me Anything
-Against Medical Advice
+AMA`Ask Me Anything| Against Medical Advice
 AMAA`Ask Me Almost Anything
 AMAP`As Much As Possible
 AMC`American Motors Corportation
@@ -505,8 +505,8 @@ ASDFGHJKL;'`When A Feeling Cannot Be Expressed In Words| Home Keys On Standard K
 ASF`And So Forth
 ASG`Asgarv| LOL
 ASIC`Application Specific Integrated Circuit
-ASL`Age, Sex, Location
-ASLP`Age, Sex, Location, Picture?
+ASL`Age| Sex| Location
+ASLP`Age| Sex| Location| Picture?
 ASM`Assembly computer language
 ASN`Any Second Now
 ASO`I see
@@ -514,7 +514,7 @@ ASP`At Some Point
 ASPCA`American Society for the Prevention of Cruelty to Animals
 AT&T`American Telephone & Telegraph
 ATA`Actual Time of Arrival
-ATAP`Any Time, Any Place
+ATAP`Any Time| Any Place
 ATB`All The Best
 ATC`Air Traffic Control
 ATD`Attention to Detail
@@ -524,7 +524,7 @@ ATGATT`All The Gear All The Time
 ATH`All Time High
 ATI`Array Technology Inc.
 ATK`Attack
-ATL`Atlanta, Georgia
+ATL`Atlanta| Georgia
 ATM`At The Moment| Automated Teller Machine
 ATMO`According To My Opinion
 ATN`Any Time Now
@@ -538,8 +538,8 @@ ATTY`Atomizer from electronic cigarette
 ATV`All Terrain Vehicle
 ATVB`All The Very Best
 ATW`All The Way
-ATWA`Air, Trees, Water, Animals| All The Way Alive
-ATX`Austin, Texas
+ATWA`Air| Trees| Water| Animals| All The Way Alive
+ATX`Austin| Texas
 ATYS`Anything You Say
 AU`Alternate Universe| Gold
 AUD`Australian Dollar
@@ -561,10 +561,9 @@ AWHFY`Are We Having Fun Yet
 AWK`Awkward
 AWKS`Awkward
 AWKY`Awkward
-AWNP`All Work, No Play
+AWNP`All Work| No Play
 AWOL`Absent Without Leave
 AWP`Arctic Warfare Police sniper rifle
-AWS`As We Speak
 AWS`As We Speak
 AWSM`Awesome
 AWW`Cute
@@ -581,7 +580,7 @@ AYFT`Are You Free Today?
 AYK`As You Know
 AYKM`Are You Kidding Me?
 AYL`Are You Listening?
-AYO`Hey, You
+AYO`Hey| You
 AYOR`At Your Own Risk
 AYPI`And Your Point Is?
 AYR`Are You Ready?
@@ -590,7 +589,7 @@ AYS`Are You Serious?
 AYSOS`Are You Stupid Or Something?
 AYT`Are You There?
 AYW`As You Wish
-AYYO`Hi, hello
+AYYO`Hi| hello
 AZN`Asian
 B`Be
 B&`Banned| Band
@@ -682,7 +681,7 @@ BBML`Be Back Much Later
 BBN`Be Back Never
 BBO`Being Bored Online
 BBQ`Barbecue| Better Be Quick
-BBR`Blonde, Brunette, Redhead
+BBR`Blonde| Brunette| Redhead
 BBS`Be Back Soon| Bulletin Board System
 BBT`Be Back Tomorrow
 BBV`Brags Beats and Variance
@@ -711,7 +710,7 @@ BDU`Brain Dead User| Battle Dress Uniform
 BEAK`Nose| Insult| To Steal
 BEANS`Ecstacy
 BEAR`Large man with body hair
-BEAST`Person/thing that is good, awesome
+BEAST`Person/thing that is good| awesome
 BEASTLY`Being good at something| cool
 BEB`Babe
 BEBE`Babe
@@ -840,7 +839,7 @@ BLOOPER`Mistake| embarrassing moment
 BLOTTO`Drunk
 BLOW`Cocaine
 BLOWN`High
-BLT`Bacon, Lettuce and Tomato sandwich
+BLT`Bacon| Lettuce and Tomato sandwich
 BLTN`Better Late Than Never
 BLUD`Mate
 BLUE`Sad
@@ -865,7 +864,7 @@ BMS`Bitchy Men Syndrome
 BMT`Before My Time| Basic Military Training
 BMTH`Bring Me The Horizon (Band)
 BMTTVE`Best Mates 'Til The Very End
-BMUS`Beam me up, Scotty
+BMUS`Beam me up| Scotty
 BMV`Be My Valentine
 BMW`Bavarian Motor Works
 BMX`Bicycle Motocross
@@ -904,8 +903,7 @@ BOLO`Be On The Lookout
 BOLSHY`Bolshevik| communist| Argumentative
 BOLTOP`Better On Lips Than On Paper
 BOM`Bro| dude| friend
-BOMB`Something really bad
-Something really good
+BOMB`Something really bad| Something really good
 BOMBSHELL`Very attractive woman
 BOMM`BOOMM
 BONE UP`Learn about| revise
@@ -996,7 +994,7 @@ BSOD`Blue Screen Of Death
 BSOF`Big Smile On Face
 BSOFN`Big Smile On Face Now
 BST`But Seriously Though
-BSTL`Bam, Said The Lady
+BSTL`Bam| Said The Lady
 BSTS`Better Safe Than Sorry
 BSU`Boring Status Update
 BT`BitTorrent| British Telecom
@@ -1007,7 +1005,7 @@ BTB`By The By
 BTBAM`Between The Buried And Me (band)
 BTD`Bored To Death
 BTDT`Been There Done That
-BTDTGTTS`Been There, Done That, Got The T-Shirt
+BTDTGTTS`Been There| Done That| Got The T-Shirt
 BTDUBS`BTW
 BTE`Best Time Ever
 BTGOG`By The Grace Of God
@@ -1026,8 +1024,8 @@ BTTF`Back To The Future
 BTTT`Back To The Top
 BTU`British Thermal Unit
 BTW`By The Way
-BTWITIAILWU`By The Way, I Think I Am In Love With You
-BTWITIAILWY`By The Way, I Think I Am In Love With You
+BTWITIAILWU`By The Way| I Think I Am In Love With You
+BTWITIAILWY`By The Way| I Think I Am In Love With You
 BTY`Back To You
 BU`Backup
 BU2M`Been Up To Much?
@@ -1108,8 +1106,7 @@ C/O`Class Of ...
 C1`Affirmative| Roger that
 C2C`Consumer to Consumer| Cam to Cam
 C4`Plastic explosive
-C4C`Comment for Comment
-Cam for Cam
+C4C`Comment for Comment| Cam for Cam
 C:`Very happy
 CAAC`Cool As A Cucumber
 CAB`Misspelling of CBA
@@ -1142,7 +1139,7 @@ CARE`I don't care
 CARPE`Vomit| throw up
 CARRIED`Told off| DISSed
 CARTY`Party in a car
-CAS`Close Air Support| Confidence, Appearance, Swagger| Creativity, Action, Service
+CAS`Close Air Support| Confidence| Appearance| Swagger| Creativity| Action| Service
 CASJ`Casual
 CAT`Cool person| Computed Axial Tomography
 CATFISH`Individual Who Creates a False Online Identity
@@ -1212,7 +1209,6 @@ CHEDDAR`Money
 CHEERIO`Goodbye
 CHEERS`Thanks| Goodbye
 CHEESE`Drug| starter heroin| Money
-CHEESE`Drug| starter heroin| Money
 CHEESY`Corny| lame
 CHEEZ`Cheese
 CHELA`Beer
@@ -1228,7 +1224,7 @@ CHILL OUT`CHILL
 CHILLAX`Chill and relax
 CHINK`Offensive term for an Asian or Chinese person
 CHINWAG`Chat
-CHIO`Sexy| good looking, girl
+CHIO`Sexy| good looking| girl
 CHIPOTLE`Mexican-style restaurant
 CHIPPY`Fish and chip shop
 CHIPS`Money| Weak| corny
@@ -1238,7 +1234,7 @@ CHIZ`Swiz| swindle
 CHIZZ`Chill out| relax
 CHOICE`Nice| great
 CHOLO`Mexican Gangster
-CHONG`Good looking| attractive, cute
+CHONG`Good looking| attractive| cute
 CHOO`You
 CHOOB`High level player who acts like a noob
 CHOONG`Good looking| buff
@@ -1314,7 +1310,7 @@ CMOS`Complementary Metal-Oxide Semiconductor
 CMS`Content Management System
 CMT`Comment
 CMU`Cracks Me Up
-CMYK`Cyan, Magenta, Yellow, Key/blacK
+CMYK`Cyan| Magenta| Yellow| Key/blacK
 CNA`Certified Nursing Assistant
 CNC`Command and Conquer
 CND`Campaign for Nuclear Disarmament
@@ -1347,7 +1343,7 @@ COOKIE`Small file relating to a website
 COOL BEANS`Cool| awesome| great
 COOLIN`CHILLing
 COP`Officer of the law| Close of Play
-COPACETIC`Cool| OK, excellent
+COPACETIC`Cool| OK| excellent
 COPY THAT`I understand
 COPYCAT`Someone who copies someone else
 COPYPASTA`Post that has been copied and pasted
@@ -1362,7 +1358,7 @@ COUGAR`Older woman looking for a younger man
 COUGER`Older woman looking for a younger man
 COUGH`Confess| come clean
 COUPLE`Two people in a relationship
-COURSE`Of course, certainly
+COURSE`Of course| certainly
 COW`Offensive term for a woman
 COYB`Come On You Blues
 COYG`Come On You Gunners
@@ -1444,7 +1440,7 @@ CUIAB`See You In A Bit
 CUL`See You Later.
 CUL8ER`See You Later
 CUL8R`See You Later
-CULA`See You Later, Alligator
+CULA`See You Later| Alligator
 CULO`Ass 
 CUMBERBITCH`Female Fan Of Benedict Cumberbatch
 CUOL`See You On Line
@@ -1466,9 +1462,9 @@ CV`Curriculum Vitae| resume
 CVV`Card Verification Value
 CW`Clockwise| Continuous Wave
 CWB`Crazy White Boys
-CWD`Comment When Done| Cringe, Wither, Die| Chronic Wasting Disease| Chicks With Dicks
+CWD`Comment When Done| Cringe| Wither| Die| Chronic Wasting Disease| Chicks With Dicks
 CWOT`Complete Waste Of Time
-CWT`Hundred Weight, 100lbs
+CWT`Hundred Weight| 100lbs
 CWTCH`Hug or cuddle
 CWTCU`Can't Wait To See You
 CWTSY`Can't Wait To See You
@@ -1492,7 +1488,7 @@ D BO`Steal
 D&D`Dungeons and Dragons
 D&M`Deep and Meaningful
 D'S`Dayton rims
-D(M)V`DC, Maryland, Virginia| Department of Motor Vehicles
+D(M)V`DC| Maryland| Virginia| Department of Motor Vehicles
 D-DAY`6th June 1944| Designated day when operations are due to commence
 D/C`Disconnected
 D00D`Dude
@@ -1507,7 +1503,7 @@ DA`The District Attorney| Dad
 DA BOMB`Excellent| the best
 DAB`Digital Audio Broadcasting
 DADA`Defence Against the Dark Arts (Harry Potter)
-DADT`Don't Ask, Don't Tell
+DADT`Don't Ask| Don't Tell
 DAE`Does Anybody Else
 DAG`Damn| Unfashionable person
 DAGGY`Uncool| not trendy| untidy
@@ -1553,7 +1549,7 @@ DCI`Drum Corps International
 DCOI`Don't Count On It
 DCT`Dream Come True
 DD FREE`Disease And Drug Free
-DDB`Deaf, Dumb, Blind
+DDB`Deaf| Dumb| Blind
 DDF`Drug and Disease Free
 DDG`Drop Dead Gorgeous
 DDI`Don't Do It
@@ -1674,14 +1670,14 @@ DITD`Down In The Dumps| sad
 DITTO`The same| me too| I agree
 DITZY`Acting dumb and innocent
 DIV`Stupid person
-DIVA`Talented, but arrogant, female performer
+DIVA`Talented| but arrogant| female performer
 DIVX`Video format
 DIY`Do It Yourself
 DIZZY`Crazy| mad
 DJ`Disc Jockey| Dow Jones| Dinner Jacket
 DJM`Don't Judge Me
 DK`Don't Know
-DKDC`Don't Know, Don't Care
+DKDC`Don't Know| Don't Care
 DKFS`Don't Know For Sure
 DKM`Don't Kill Me
 DKNY`Donna Karan New York
@@ -1723,7 +1719,7 @@ DNA`Deoxyribonucleic Acid| Did Not Attend| Does Not Apply
 DNB`Drum And Bass
 DNC`Democratic National Committee
 DND`Do Not Disturb
-DNDC`Don't Know, Don't Care
+DNDC`Don't Know| Don't Care
 DNE`Do Not Erase| Does Not Exist
 DNF`Did Not Finish
 DNFTT`Do Not Feed The Troll
@@ -1741,7 +1737,7 @@ DOB`Date Of Birth
 DOBE`Idiot
 DOC`Doctor| Drug of Choice
 DOD`Day of Defeat
-DODGY`Of questionable legality, morality, integrity
+DODGY`Of questionable legality| morality| integrity
 DOE`Depends On Experience
 DOF`Depth of Field
 DOFL`Dying On Floor Laughing
@@ -1853,7 +1849,7 @@ DUO`Do Unto Others
 DUPA`Ass
 DUPE`Duplicate
 DUR`Duh
-DURS`Damn, You Are Sexy
+DURS`Damn| You Are Sexy
 DUS`Does
 DUSS`Run away
 DUST`Angel dust| PCP
@@ -1871,7 +1867,7 @@ DWA`Driving While Asian
 DWAG`Misspelling of DAWG
 DWAI`Don't Worry About It
 DWB`Driving While Black
-DWBH`Don't Worry, Be Happy
+DWBH`Don't Worry| Be Happy
 DWBI`Don't Worry 'Bout It
 DWEEB`Dork| nerd
 DWEET`Do it
@@ -1907,11 +1903,11 @@ DYS`Do You See?
 DYT`Don't You Think?
 DZ`Drop Zone
 E`Ecstasy
-E>`<3
 E&OE`Errors and omissions excluded
 E-DATING`Online dating
 E1`Everyone
 E2EG`Ear To Ear Grin
+E>`<3
 EA`Electronic Arts
 EAS`End of Active Service
 EB`Eyeball
@@ -1958,11 +1954,11 @@ ELLO`Hello
 ELNS`Eller noe s
 ELO`Electric Light Orchestra (band)
 ELOL`Evil Laugh Out Loud
-ELP`Emerson, Lake, and Palmer (band)
+ELP`Emerson| Lake| and Palmer (band)
 EM`E-Mail| Them
 EMA`E-mail Address
 EMAW`Every Man a Wildcat
-EMCEE`MC, Master of Ceremonies
+EMCEE`MC| Master of Ceremonies
 EMO`Emotional
 EMOJI`Tiny Pictures Used In Texts To Communicate A Feeling Or A Concept
 EMOTICON`Sequence of characters representing an emotion eg :)
@@ -2000,8 +1996,7 @@ EPOS`Electronic Point Of Sale
 EPROM`Electronically Programmable ROM
 EQ`EverQuest (game)
 EQE`Easy Quick Efficient
-ER`Emergency Room
-Indicating hesitation
+ER`Emergency Room| Indicating hesitation
 ERB`Herb| Marijuana
 ERK`Irk| annoy
 ERM`Awkward conversation filler
@@ -2042,7 +2037,7 @@ EVT`Ei Voi Tiet
 EVVK`Couldn't Care Less
 EW`Exclamation of disgust
 EWBA`Everything Will Be Alright
-EWE`Epilogue, What Epilogue? (Harry Potter)
+EWE`Epilogue| What Epilogue? (Harry Potter)
 EWW`disgust
 EX`Former
 EXE`Windows program file
@@ -2052,7 +2047,7 @@ EXT`Extension
 EXTRA`Over the top| excessive
 EY`Hey
 EYEBALL`Look at| Estimate measurement by looking
-EYO`Hey, you
+EYO`Hey| you
 EZ`Easy
 EZPZ`Easy peasy| very easy
 E_E`Tired| exhausted
@@ -2100,7 +2095,7 @@ FBG`Fat Bottomed Girl
 FBI`Federal Bureau of Investigation
 FBM`Fine By Me
 FBO`Facebook Official
-FBTW`Fine, Be That Way
+FBTW`Fine| Be That Way
 FBW`Fly by wire
 FC`Fingers Crossed| Full Combo
 FCFS`First Come First Served
@@ -2146,7 +2141,7 @@ FHO`Friends Hanging Out
 FHS`For Heaven's Sake
 FI`Forget It
 FIC`Fanfiction
-FICCL`Frankly, I Couldn't Care Less
+FICCL`Frankly| I Couldn't Care Less
 FIDDY`Fifty
 FIF`Fifth Amendment
 FIFA`Federation International de Football Association
@@ -2154,7 +2149,7 @@ FIFO`First In First Out
 FIFY`Fixed It For You
 FIG JAM`F*** I'm Good Just Ask Me
 FIL`Father-in-law
-FILO`First In, Last out
+FILO`First In| Last out
 FIN`Finished
 FINA`About to do
 FINK`Snitch| informer
@@ -2181,7 +2176,6 @@ FLA`Florida
 FLAFF`Foot Loose And Fancy Free
 FLAG`Bandana
 FLAGGED`Banned
-FLAGGED`Banned
 FLAKE`Unreliable person
 FLAKE OUT`Cancel at the last minute
 FLAKY`Unreliable
@@ -2204,14 +2198,14 @@ FM`Freqeuncy modulation
 FMA`Full Metal Alchemist
 FMB`F***-Me Boots
 FMCG`Fast Moving Consumer Goods
-FMDIDGAD`Frankly My Dear , I Don't Give A Damn
+FMDIDGAD`Frankly My Dear | I Don't Give A Damn
 FMH`For Him Magazine
 FMI`For More Information
 FMJ`Full Metal Jacket
 FMLA`Family and Medical Leave of Absence
 FMO`For Members Only
 FMOT`Follow Me On Twitter
-FMTKFYTFO`For Me To Know, For You To Find Out
+FMTKFYTFO`For Me To Know| For You To Find Out
 FMV`Full Motion Video
 FNA`For Necessary Action
 FNAR`For No Apparent Reason| Snigger
@@ -2246,7 +2240,7 @@ FOPS`Fake cops (security guards etc)
 FORTE`Area of expertise| strength
 FOSHO`For Sure
 FOSS`Free and Open Source Software
-FOT`Fat, but HOT
+FOT`Fat| but HOT
 FOTB`Fresh Off The Boat
 FOTC`Flight of the Conchords
 FOTD`Friend Of The Day
@@ -2267,7 +2261,7 @@ FREEBIE`Item or service one gets for free
 FREEBSD`Free Berkeley Software Distribution (Unix like OS)
 FRESH`Very good| cool
 FRESHIE`Imigrant
-FRFR`FR, FR
+FRFR`FR| FR
 FRIED`High on drugs
 FRILL`For Real
 FRL`For Real
@@ -2313,11 +2307,11 @@ FTV`For The Victory
 FUBAR`Fouled Up Beyond All Recognition
 FUBB`Fouled Up Beyond Belief
 FUBU`Fouled Up Beyond Use| Clothing brand
-FUD`Fear, Uncertainty, and Doubt
+FUD`Fear| Uncertainty| and Doubt
 FUIC`Farmers Union Iced Coffee
 FULL MONTY`Whole way| whole thing
 FUMA`Fake Puma shoes
-FUTAB`Feet Up, Take A Break
+FUTAB`Feet Up| Take A Break
 FUTCH`FEMME + Butch
 FUZZ`Police
 FW`Forward
@@ -2341,8 +2335,7 @@ FYR`For Your Review| For Your Records
 FYT`For Your Time
 G`Grin
 G O A T`Greatest Of All Time
-GOAT`Greatest Of All Time
-G'DAY`Good Day, hello
+G'DAY`Good Day| hello
 G1`Good One| Gone
 G2B`Go To Bed
 G2E`Got To Eat
@@ -2436,14 +2429,14 @@ GFY`Good For You
 GG`Good Game
 GGA`Good Game All
 GGBB`Good Game Bye Bye
-GGG`Good, Giving, and Game
+GGG`Good| Giving| and Game
 GGL`Giggle
 GGN`Gotta Go Now
 GGNORE`Good Game No Rematch
 GGOH`Gotta Get Outta Here
 GGS`Good Games
 GGW`Girls Gone Wild
-GGWP`Good Game, Well Played
+GGWP`Good Game| Well Played
 GH`Guitar Hero
 GHB`Gamma Hydroxybutyrate
 GHD`Good Hair Day
@@ -2454,7 +2447,7 @@ GI`Government Issue| American Solider| Good Idea
 GIEF`Give
 GIF`Graphics Interchange Format - Picture Format
 GIG`Live performance| Gigabyte| Job
-GIGO`Garbage In, Garbage Out
+GIGO`Garbage In| Garbage Out
 GIMME`Give me
 GIMP`Uncool| Stupid person
 GINGE`Person with red hair
@@ -2464,7 +2457,7 @@ GINNEL`Alley| passageway
 GIS`Google Image Search
 GIT`Idiot
 GITMO`Guantanamo Bay
-GIWIST`Gee, I Wish I'd Said That.
+GIWIST`Gee| I Wish I'd Said That.
 GIY`Google It Yourself
 GIYF`Google Is Your Friend
 GJ`Good Job
@@ -2473,7 +2466,7 @@ GJWHF`Girls Just Wanna Have Fun
 GK`Good Kid
 GKY`Go Kill Yourself
 GL`Good Luck| Good Looking
-GL HF`Good Luck, Have Fun
+GL HF`Good Luck| Have Fun
 GLA`Good Luck All
 GLAG`Giggling Like A Girl
 GLAMPING`Glamorous/luxury camping
@@ -2481,7 +2474,7 @@ GLD`Good Life Decision
 GLEAK`Spit
 GLEEK`A fan of the TV show Glee
 GLF`Group Looking For
-GLHF`Good luck, have fun.
+GLHF`Good luck| have fun.
 GLIRL`Good Luck In Real Life
 GLITCH`Error| mistake
 GLOCK`Semi-automatic pistol
@@ -2494,7 +2487,7 @@ GLUCK`Good Luck
 GLWS`Good Luck With Sale
 GLWT`Good Luck With That
 GM`General Motors| Good Morning| Genetically Modified| Good Move
-GMA`Good Morning, America
+GMA`Good Morning| America
 GMAB`Give Me A Break
 GMAIL`Google web email service
 GMBH`Gesellschaft mit Beschr
@@ -2516,7 +2509,7 @@ GNK`Glitch No Kill (gaming)
 GNO`Girls/Guys Night Out
 GNP`Gross National Product
 GNR`Guns 'N Roses
-GNSD`Good Night, Sweet Dreams
+GNSD`Good Night| Sweet Dreams
 GNSTDLTBBB`Good Night Sleep Tight Don't Let the Bed Bugs Bite
 GNU`GNU's Not Unix| Linux OS
 GOAT`Greatest Of All Time
@@ -2570,7 +2563,7 @@ GPS`Global Positioning System
 GPU`Graphics Processing Unit
 GQ`Gentlemen Quarterly| Suave| well dressed man
 GR`Gotta Run
-GR&D`Grinning, Running & Ducking
+GR&D`Grinning| Running & Ducking
 GR8`Great
 GR9`Better than GR8
 GRAF`Graffiti| Paragraph
@@ -2614,7 +2607,7 @@ GTHBA`Good Times Had By All
 GTHO`Get The Hell Out
 GTI`High performance hatchback
 GTK`Good To Know
-GTL`Gym, Tan, Laundry
+GTL`Gym| Tan| Laundry
 GTLD`Generic TLD
 GTM`Giggling To Myself
 GTO`Gran Turismo Omologato
@@ -2703,7 +2696,7 @@ HAGN`Have A Good Night
 HAGO`Have A Good One
 HAGS`Have A Great Summer
 HAGT`Have A Great Time
-HAI`Hey, hi| Yes
+HAI`Hey| hi| Yes
 HAISTK`How Am I Supposed To Know?
 HAIZ`Sigh
 HAK`Hugs And Kisses
@@ -2734,7 +2727,6 @@ HAYD`How Are You Doing?
 HAYT`How Are You Today?
 HAYWIRE`Crazy
 HAZE`Type of marijuana
-HB`Hug Back
 HB`Hurry Back
 HBCU`Historically Black Colleges and Universities
 HBD`Happy Birthday
@@ -2781,13 +2773,13 @@ HEP`Hip| cool
 HERB`Stupid person
 HESHE`Person of unidentifiable gender
 HEX`Hexadecimal| Curse
-HEY`Hello, hi
+HEY`Hello| hi
 HEYO`Hello
 HEYY`Hey You
 HF`Have Fun
 HF?`Have Fun
 HFFA`Hot From Far Away
-HFGL`Have Fun, Good Luck
+HFGL`Have Fun| Good Luck
 HFY`Here For You| Happy for You
 HG`Holy Grail
 HGB`Hellogoodbye (band)
@@ -2796,12 +2788,11 @@ HGI`How Goes It?
 HGL`Happy Go Lucky
 HGTV`Home and Garden Television
 HGV`Heavy Goods Vehicle
-HH`Ha-Ha
 HH`Holding Hands
 HHIS`Hanging Head In Shame
-HHOJ`Ha-Ha, Only Joking
-HHOK`Ha-Ha, Only Kidding
-HHVF`Ha-Ha, Very Funny
+HHOJ`Ha-Ha| Only Joking
+HHOK`Ha-Ha| Only Kidding
+HHVF`Ha-Ha| Very Funny
 HHWW`Holding Hands While Walking
 HI`Hello
 HI5`Social networking site
@@ -2822,9 +2813,8 @@ HIV`Human Immunodeficiency Virus
 HIWTH`Hate It When That Happens
 HIYA`Hello
 HJNTIY`He's Just Not That Into You
- HK`Hong Kong| Hostile Kids
 HL`Half Life (game)
-HLAS`Hook, Line And Sinker
+HLAS`Hook| Line And Sinker
 HLV`Hasta La Vista
 HM`Thinking
 HMB`Hit Me Back (reply)
@@ -2832,7 +2822,7 @@ HMF`HMPH
 HMI`Human Machine Interface
 HMIHY`How May I Help You?
 HML`Hate My Life
-HMP`Help Me, Please
+HMP`Help Me| Please
 HMPF`Sound made when irritated
 HMPH`apathy| disagreement
 HMS`Her Majesty's Ship (UK)
@@ -2878,8 +2868,7 @@ HOOAH`HUA
 HOOCHIE`Over made up woman with trashy dress sense
 HOOCHIFIED`Dressed Provocatively
 HOOD`Neighborhood| ghetto
-HOODIE`Hooded sweatshirt
-Person wearing a hooded sweatshirt
+HOODIE`Hooded sweatshirt| Person wearing a hooded sweatshirt
 HOOK ME UP`Share with me
 HOOKED`Addicted
 HOOPS`Basketabll
@@ -2907,7 +2896,7 @@ HSBC`Hong Kong and Shanghai Banking Corporation
 HSH`Home Sweet Home
 HSIK`How Should I Know?
 HSIT`How Sad Is That
-HSL`Hue, Saturation, Lightness
+HSL`Hue| Saturation| Lightness
 HSM`High School Musical
 HSP`Highly Sensitive Person
 HSPDA`High Speed Packet Data Access
@@ -2926,7 +2915,7 @@ HTSYS`Hope To See You Soon
 HTTP`Hyper-Text Transfer Protocol
 HTTPS`Hyper-Text Transfer Protocol Secure
 HTTR`Hail To The Redskins
-HTX`Houston, Texas
+HTX`Houston| Texas
 HU`Hollywood Undead (Band)
 HUA`Heard Understood Acknowledged
 HUBBY`Husband
@@ -2945,7 +2934,7 @@ HURT`Ugly| unattractive
 HUS`Hustler
 HUSPAZ`Hurray
 HUZZAH`triumph| joy
-HVAC`Heating, Ventilating, Air Conditioning
+HVAC`Heating| Ventilating| Air Conditioning
 HVD`Happy Valentine's Day
 HW`Homework
 HWB`Hottie With Body
@@ -2953,7 +2942,7 @@ HWGA`Here We Go Again
 HWK`Homework
 HWP`Height Weight Proportional
 HWSNBN`He Who Shall Not Be Named
-HWU`Hey, What's Up?
+HWU`Hey| What's Up?
 HWYD`How Was Your Day?
 HXC`Hardcore (music)
 HY`Hell Yes| Hi
@@ -2965,7 +2954,7 @@ HYG`Here You Go
 HYH`Have You Heard| Hold Your Horses
 HYIP`High Yield Investment Program
 HYNA`Good looking girl
-HYP`Harvard, Yale, Princeton
+HYP`Harvard| Yale| Princeton
 HYPER`Over energetic
 HYPH`Hyperactive| crazy
 HYPO`Hypodermic needle/syringe
@@ -2973,11 +2962,11 @@ HYS`Have Your Say
 HYU`Hit You Up
 HYUK`Lose| despite having a good lead
 HZ`Hertz
-I<3U`I Love You
 I'MA`I am going to
 I/O`Input/Output
 I18N`Internationalization
 I8`Aight| aite| alright
+I<3U`I Love You
 IA`I Agree
 IAB`I Am Bored
 IABW`In A Bad Way
@@ -3052,7 +3041,7 @@ IDE`Integrated Development Environment| Integrated Device Electronics
 IDEC`I Don't Even Care
 IDEK`I Don't Even Know
 IDEKY`I Don't Even Know You
-IDEM`The same, me too
+IDEM`The same| me too
 IDEWTK`I Don't Even Want To Know
 IDFG`I Don't Feel Good
 IDFLI`I Don't Feel Like It
@@ -3080,7 +3069,7 @@ IDNK`I Do Not Know
 IDR`I Don't Remember
 IDRC`I Don't Really Care
 IDRK`I Don't Really Know
-IDST`If Destroyed, Still True
+IDST`If Destroyed| Still True
 IDT`I Don't Think
 IDTS`I Don't Think So
 IDU`I Don't Understand
@@ -3105,7 +3094,7 @@ IGI`I Get It
 IGM`I Got Mine
 IGMC`I'll Get My Coat
 IGN`In Game Name
-IGNB`I'm Going Now, Bye
+IGNB`I'm Going Now| Bye
 IGNTS`I've Got Nothing To Say
 IGS`I Guess So
 IGTG`I Got To Go
@@ -3157,15 +3146,15 @@ IJS`I'm Just Saying
 IJWTK`I Just Want To Know
 IJWTS`I Just Want To Say
 IK`I Know
-IKE`DUDE| I Know, Eh
+IKE`DUDE| I Know| Eh
 IKEA`Swedish furniture store
-IKH`I Know, Huh?
+IKH`I Know| Huh?
 IKHYF`I Know How You Feel
 IKLY`I Kinda Like You
 IKM`I Know Man
 IKMTY`I Know More Than You
 IKN`I Know Not
-IKR`I Know, Right
+IKR`I Know| Right
 IKT`I Knew That
 IKTF`I Know The Feeling
 IKTR`I Know That's Right
@@ -3179,9 +3168,9 @@ IL`In Love
 ILD`Ich Liebe Dich (I Love You)
 ILH`I Love Him/Her
 ILI`I Love It
-ILL`Cool, tight, etc
+ILL`Cool| tight| etc
 ILLEST`Best
-ILLY`Fresh, cool
+ILLY`Fresh| cool
 ILM`I lige m
 ILML`I Love My Life
 ILMO`In Loving Memory Of
@@ -3242,7 +3231,7 @@ IMO`In My Opinion
 IMOO`In My Own Opinion
 IMP`It's My Pleasure
 IMPO`In My Personal Opinion
-IMR`I Mean, Really
+IMR`I Mean| Really
 IMS`Irritable Male Syndrome
 IMSMR`If Memory Serves Me Right
 IMU`I Miss You
@@ -3270,7 +3259,7 @@ INKED`Tattooed
 INNIT`Isn't It
 INO`I Know
 INOP`Inoperative| In Need Of Practice
-INORITE`I Know, Right?
+INORITE`I Know| Right?
 INPO`In No Particular Order
 INR`IKR
 INRI`Iesus Nazarenus Rex Iudaeorum| Jesus of Nazareth King of the Jews
@@ -3311,7 +3300,7 @@ IRC`Internet Relay Chat
 IRCOP`Internet Relay Chat Operator
 IRDC`I Really Don't Care
 IRDK`I Really Don't Know
-IRIE`Feeling good, alright
+IRIE`Feeling good| alright
 IRL`In Real Life
 IRLY`I Really Like You
 IRMC`I Rest My Case
@@ -3382,7 +3371,7 @@ IWU`I Want You
 IWY`I Want You
 IYA`Hiya| hello
 IYAM`If You Ask Me
-IYBTYBA`If You Believe That, You'll Believe Anything
+IYBTYBA`If You Believe That| You'll Believe Anything
 IYD`In Your Dreams
 IYDK`If You Didn't Know
 IYDM`If You Don't Mind
@@ -3467,8 +3456,6 @@ JGB`Just Got Back
 JGH`Just Got Home
 JGI`Just Google It
 JGL`Just Get Lost
-JGI`Just Google It
-JGL`Just Get Lost
 JHC`Jesus H Christ
 JHEEZE`OMG| wow
 JHP`Jacketed Hollow Point (bullet)
@@ -3483,7 +3470,7 @@ JJ`Just Joking
 JJJ`Australian radio station
 JK`Just Kidding
 JKD`Jeet Kune Do| Martial Art
-JKL`Just Kidding Loser| Just Kidding, LOL
+JKL`Just Kidding Loser| Just Kidding| LOL
 JKN`Joking
 JKS`Jokes
 JKZ`Jokes
@@ -3564,9 +3551,9 @@ KBPS`KiloBytes per second
 KCACO`Keep Calm And Carry On
 KCCO`Keep Calm and Chive On
 KD`Kraft Dinner
-KDOT`Okay, period
+KDOT`Okay| period
 KDR`Kill/Death Ratio
-KEED`Kid, joke
+KEED`Kid| joke
 KEEL`Kill
 KEK`LOL in WOW
 KEN`Know
@@ -3581,7 +3568,7 @@ KF`Kinda Funny
 KFC`Kentucky Fried Chicken
 KG`Kilogram
 KGB`Russian secret police
-KGO`OK, Go
+KGO`OK| Go
 KH`Kingdom Hearts (RPG)
 KHUF`Know How You Feel
 KHYF`Know How You Feel
@@ -3597,14 +3584,14 @@ KILLA`Good quality weed
 KIM`Keep It Moving
 KINDA`Kind Of
 KINGS`Drinking game
-KINO`Physical flirting, touching
+KINO`Physical flirting| touching
 KIO`Knock it off
 KIP`Sleep| Bed
 KIR`Keepin' It Real
 KIRF`Keeping It Real Fake
 KIS`Keep It Simple
 KISA`Knight In Shining Armour
-KISS`Keep It Simple, Stupid
+KISS`Keep It Simple| Stupid
 KIT`Keep In Touch
 KITE`Mail received in jail
 KITTEN`Woman who dates older men
@@ -3612,7 +3599,7 @@ KIU`Keep It Up
 KIV`Keep In View
 KIWI`A person from New Zealand| A small brown bird from New Zealand| Kiwifruit
 KJ`Killjoy
-KK`OK, cool
+KK`OK| cool
 KKK`Ku Klux Klan
 KKKK`Korean LOL
 KKZ`Okay
@@ -3637,7 +3624,7 @@ KNOCKED`Caught
 KNOCKED UP`Pregnant
 KNOCKOUT`Stunning person or thing
 KNOT`Roll of paper money
-KNP`OK, No Problem
+KNP`OK| No Problem
 KO`Knock Out| OK
 KOD`Kiss Of Death
 KOI`Koibito| lover
@@ -3648,7 +3635,7 @@ KOOL`Cool
 KOOLIO`Cool
 KOOLS`Mentholated cigarettes
 KOS`Kill On Sight
-KOSHER`Good, OK
+KOSHER`Good| OK
 KOTC`Kiss On The Cheek
 KOTD`KICKS Of The Day
 KOTH`King of the Hill (game)
@@ -3664,22 +3651,22 @@ KRAM`Smoke weed
 KRO`Keep Right On
 KRON`CHRONIC
 KS`Kill Steal
-KTB`Ok, Thanks, Bye
+KTB`Ok| Thanks| Bye
 KTBFFH`Keep The Blue Flag Flying High!
 KTBPA`KTBSPA
 KTBSPA`Keep The Backstreet Pride Alive
 KTF`Keep The Faith
-KTHNXBI`OK, Thanks, Bye
-KTHX`OK, Thanks
-KTHXBAI`OK, Thanks, Bye
-KTHXBI`Okay, Thanks, Bye
-KTY`Ok, Thank You
+KTHNXBI`OK| Thanks| Bye
+KTHX`OK| Thanks
+KTHXBAI`OK| Thanks| Bye
+KTHXBI`Okay| Thanks| Bye
+KTY`Ok| Thank You
 KUDO`KUDOS
 KUDOS`Respect and recognition
 KUL`Cool
 KUSH`High grade marijuana
 KUTGW`Keep Up The Good Work
-KVM`Keyboard, Video, Mouse
+KVM`Keyboard| Video| Mouse
 KW`Kilowatt
 KWAM`KWIM
 KWAN`Love and Respect| Extraordinary
@@ -3740,8 +3727,8 @@ LASER`Light Amplification by Stimulated Emission of Radiation
 LAT`Living Apart Together
 LATA`LATERS
 LATE`Missed a period| possibly pregnant|Dead
-LATERS`See you later, goodbye
-LATERZ`See you later, goodbye
+LATERS`See you later| goodbye
+LATERZ`See you later| goodbye
 LATM`Laughing At The Moment
 LAU`Laughing At You
 LAV`Lavatory| toilet| Love
@@ -3750,7 +3737,7 @@ LAWL`LOL
 LAWLS`LOL
 LAWLZ`LOL
 LAX`Lacrosse
-LBC`Long Beach, California
+LBC`Long Beach| California
 LBD`Little Black Dress
 LBDN`Look Busy Doing Nothing
 LBH`Let's Be Honest| Loser Back Home
@@ -3793,7 +3780,7 @@ LEVA`Traitor
 LEWL`LOL
 LF`Looking For
 LF1M`Looking For One More
-LFDY`Live Fast, Die Young
+LFDY`Live Fast| Die Young
 LFG`Looking For Group
 LFM`Looking For More
 LFMF`Learn From My Fail
@@ -3802,8 +3789,8 @@ LFTI`Looking Forward To It
 LFTSU`Look Forward To Seeing You
 LFW`Looking For Work
 LG`Little Girl
-LGBTQ`Lesbian, Gay, Bisexual, Transexual, Questioning
-LGBT`Lesbian, Gay, Bisexual, Transexual
+LGBT`Lesbian| Gay| Bisexual| Transexual
+LGBTQ`Lesbian| Gay| Bisexual| Transexual| Questioning
 LGD`Let's Get Drunk
 LGFB`Looks Good From Behind
 LGMH`Love Gives Me Hope
@@ -3812,7 +3799,7 @@ LGT`Link Goes To ...
 LGTM`Looks Good To Me
 LH`Living Hell
 LHH`Laughing Hella Hard
-LHK`Love, Hugs and Kisses
+LHK`Love| Hugs and Kisses
 LHM`Lord Have Mercy| Lord Help Me
 LHR`London Heathrow airport
 LHYW`Like Hell You Will
@@ -3864,8 +3851,8 @@ LM`Loud Mouth
 LMA`Leave Me Alone
 LMAD`Let's Make A Deal
 LMAM`Leave Me A Message
-LMAP`Leave Me Alone Please
 LMAO`Laughing my ass off
+LMAP`Leave Me Alone Please
 LMC`Let Me Check| Let Me See
 LMCO`Laughing My Cats Off
 LMG`Light Machine Gun
@@ -3904,7 +3891,7 @@ LOLING`The act of laughing out loud
 LOLK`LOL+OK
 LOLL`Laugh Out Loud Literally
 LOLLY`Money
-LOLN`LOL, Not
+LOLN`LOL| Not
 LOLO`Lowrider| Crazy
 LOLOL`Lots Of Laughing Out Loud
 LOLV`Lots Of Love
@@ -3914,7 +3901,7 @@ LOLZ`Laugh Out Loud
 LOLZA`LOL
 LOMB`Lying On My Bed
 LOML`Love Of My Life
-LOMO`Lights Out, Missionary Only
+LOMO`Lights Out| Missionary Only
 LOO`Toilet
 LOOL`Laughing Outlandishly Out Loud
 LOONY`Crazy
@@ -3976,7 +3963,7 @@ LTH`Love Truth Honor
 LTIC`Laugh Til I Cry
 LTL`Living The Life
 LTM`Laughing To Myself
-LTMA`Less Talk, More Action
+LTMA`Less Talk| More Action
 LTMQ`Laughing To Myself Quietly
 LTMS`Laughing To Myself
 LTNC`Long Time No Chat
@@ -3999,7 +3986,7 @@ LULAB`Love You Like A Brother
 LULAS`Love You Like A Sister
 LULS`LOL
 LULZ`LOL
-LUMI`Love You, Mean It
+LUMI`Love You| Mean It
 LUMU`Love You Miss You
 LUNCHBOX`Bulge in a man's pants
 LURK`Read a forum but never post
@@ -4028,7 +4015,7 @@ LY2`Love You Too
 LY4E`Love You Forever
 LYA`Love You Always
 LYAAF`Love You As A Friend| Love You Always And Forever
-LYB`Love You, Bye
+LYB`Love You| Bye
 LYF`Love You Forever
 LYK`Let you know
 LYKE`Like
@@ -4040,9 +4027,9 @@ LYLC`Love You Like Crazy
 LYLMB`Love You Like My Brother
 LYLT`Love You Long Time
 LYM`Love You More
-LYMI`Love You, Mean It
-LYMY`Love You, Miss You
-LYMYWY`Love You, Miss You, Want You
+LYMI`Love You| Mean It
+LYMY`Love You| Miss You
+LYMYWY`Love You| Miss You| Want You
 LYR`Love You Really
 LYSM`Love You So Much
 LYT`Love You Too
@@ -4073,9 +4060,9 @@ MAG`Magazine
 MAGGOT`Fan of the band Slipknot
 MAH`My
 MAJ`Major
-MAL`Mean, bad, evil
+MAL`Mean| bad| evil
 MAMAW`Grandmother
-MAMI`Sexy, Baby
+MAMI`Sexy| Baby
 MAN U`Manchester United Football Club
 MANC`Person from Manchester
 MANDEM`Group of men| boys
@@ -4116,18 +4103,16 @@ MCM`Man Crush Monday
 MCP`Male Chauvanist Pig
 MCR`My Chemical Romance (band)
 MD`Doctor of Medicine| Managing Director
- MCR`My Chemical Romance (band)
-MD`Doctor of Medicine| Managing Director
 MDA`Drug related to Ecstasy (MDMA)
 MDF`Medium Density Fiberboard
 MDK`Murder Death Kill
-MDMA`3,4-Methylenedioxymethamphetamine
+MDMA`3|4-Methylenedioxymethamphetamine
 MDR`Mort De Rire| LOL
 MDW`Memorial Day Weekend
 ME GUSTA`I like
 ME2`Me Too
 MEAN`Cool
-MEATHEAD`Muscular, but dumb person
+MEATHEAD`Muscular| but dumb person
 MEC`Dude
 MED`Medication
 MEDS`Medications
@@ -4137,7 +4122,7 @@ MEG`Megabyte
 MEGO`My Eyes Glazed Over
 MEH`Indifference| equivalent to shoulder shrug
 MELT`Idiot
-MEME`An idea that spreads like a virus by word of mouth, email, blogs etc
+MEME`An idea that spreads like a virus by word of mouth| email| blogs etc
 MENTHOL`Mint flavored cigarette
 MEP`Member of the European Parliament
 MER`boredom| nonchalance
@@ -4165,7 +4150,7 @@ MGS`Metal Gear Solid (game)
 MH`Map Hack
 MHBFY`My Heart Bleeds For You
 MHM`MHMM
-MHMM`Yes, sure, OK
+MHMM`Yes| sure| OK
 MHO`My Honest Opinion
 MHOTY`My Hat's Off To You
 MHR`Many Happy Returns
@@ -4310,7 +4295,7 @@ MPUA`Master Pick Up Artist
 MPV`Multi-Purpose Vehicle
 MR`Mentally Retarded
 MRA`Man bra
-MRE`Meal, Ready to Eat
+MRE`Meal| Ready to Eat
 MRI`Magnetic Resonance Imaging
 MRP`Manufacturer's Recommended Price
 MRW`My Reaction When...
@@ -4341,7 +4326,7 @@ MTFBWU`May The Force Be With You
 MTFBWY`May The Force Be With You
 MTG`Magic: The Gathering
 MTH`Month
-MTL`Montreal, Canada
+MTL`Montreal| Canada
 MTLBWY`May The Lord Be With You
 MTO`Media Take Out
 MTUK`More Than You Know
@@ -4369,7 +4354,7 @@ MULA`Money
 MULE`Person who carries something for someone else
 MULLET`Hairstyle
 MULTI`Player with multiple online accounts
-MULU`Miss You, Love You
+MULU`Miss You| Love You
 MUM`Mom
 MUNG`Mash Until No Good
 MUNTED`Drunk| intoxicated
@@ -4394,7 +4379,7 @@ MWF`Married White Female
 MWHA`Kiss
 MWI`Mad With It
 MWM`Married White Male
-MWPP`Moony, Wormtail, Padfoot, and Prongs (Harry Potter)
+MWPP`Moony| Wormtail| Padfoot| and Prongs (Harry Potter)
 MX`Motocross
 MY B`My Bad
 MY BAD`apology
@@ -4439,7 +4424,6 @@ NACKERED`Tired| worn out
 NADA`Nothing
 NADDA`Nothing
 NAE`No
-NAE`No
 NAFF`Poor quality| uncool| Substitute swear word
 NAGL`Not A Good Look
 NAH`No
@@ -4468,12 +4452,12 @@ NAS`Network Attached Storage
 NASA`National Aeronautics and Space Administration
 NASCAR`National Association for Stock Car Auto Racing
 NASDAQ`National Association of Securities Dealers Automated Quotation
-NASL`Name, Age, Sex, Location
+NASL`Name| Age| Sex| Location
 NATCH`Naturally
 NATI`Cincinnati
 NATM`Not At The Moment
 NATO`North Atlantic Treaty Organization| No Action Talk Only
-NATTY`Natural Light beer| Smart, good, cool
+NATTY`Natural Light beer| Smart| good| cool
 NATTY LIGHT`Natural Light beer
 NAW`No
 NAWF`North
@@ -4501,8 +4485,8 @@ NCAA`National Collegiate Athletic Association
 NCB`Never Coming Back
 NCIS`Naval Criminal Investigative Service (TV show)
 NCMO`Non-Committal Make Out
-NCNR`Non-Cancelable, Non-Returnable
-NCNS`No Call, No Show
+NCNR`Non-Cancelable| Non-Returnable
+NCNS`No Call| No Show
 NCO`Non-Commissioned Officer
 ND`And
 NDA`Non-Disclosure Agreement
@@ -4521,7 +4505,7 @@ NED`Non-Educated Delinquent
 NEDM`Not Even Doom Music
 NEE`Maiden name indicator
 NEEK`A cross between a Nerd and a Geek
-NEET`Not in Education, Employment or Training
+NEET`Not in Education| Employment or Training
 NEF`Person who posts pointless messages on forums
 NEFIN`Anything
 NEG`Negative
@@ -4621,14 +4605,14 @@ NMH`Nodding My Head
 NMI`Need More Info
 NMJ`Not My Job
 NMJC`Not Much Just Chat
-NMJCU`Not Much, Just Chillin', U?
+NMJCU`Not Much| Just Chillin'| U?
 NMN`No Middle Name
 NMO`Not My Opinion
 NMP`Not My Problem
 NMR`Not My Responsibility
 NMS`Not My Style
 NMT`Not My Type
-NMU`Not Much, You?
+NMU`Not Much| You?
 NMW`No Matter What
 NMWH`No Matter What Happens
 NMY`Nice Meeting You
@@ -4639,7 +4623,7 @@ NNTP`Network News Transfer Protocol
 NNTR`No Need To Reply
 NO`No Offence
 NO BIGGIE`No big deal
-NO WORRIES`OK, no problem
+NO WORRIES`OK| no problem
 NO-BRAINER`no thought before deciding
 NO1`No-One
 NO1CURR`No-One Cares
@@ -4649,8 +4633,8 @@ NOD`Doze off
 NOH`New Overhauled
 NOI`No Offense Intended
 NOK`Not Okay| No One Knows
-NOKD`Not Our Kind, Dear
-NOLA`New Orleans, Louisana
+NOKD`Not Our Kind| Dear
+NOLA`New Orleans| Louisana
 NOLY`No One Likes You
 NOM`No Offence Meant
 NOMB`None Of My Business
@@ -4661,22 +4645,22 @@ NON`Now Or Never
 NONG`Idiot| twit
 NONY`Anonymous person
 NONYA`None of Your (business)
-NOOB`New, inexperienced person
+NOOB`New| inexperienced person
 NOOB TUBE`Grenade launcher attachment in COD4
 NOOBLET`Young NOOB
 NOOPS`Backward spoon
 NOP`Not Our Problem| No Problem
 NOPE`No
 NORCAL`Northern California
-NORLY`No, Really?
+NORLY`No| Really?
 NORM`Normal
 NOS`New Old Stock
-NOSA`No Sir, just kidding
+NOSA`No Sir| just kidding
 NOTA`None Of The Above
 NOTB`None Of Their Business
 NOTTIE`Unattractive person| not a HOTTIE
 NOTW`Not Of This World
-NOU`No, You
+NOU`No| You
 NOUT`Nothing
 NOV`Novice
 NOWT`Nothing
@@ -4687,7 +4671,7 @@ NP`No Problem
 NPAA`No Problem At All
 NPC`Non Player Character
 NPI`No Pun Intended
-NPNT`No Picture, No Talk
+NPNT`No Picture| No Talk
 NPO`Never Pull Out
 NPR`National Public Radio| No Purchase Required
 NPS`No Problems
@@ -4760,7 +4744,7 @@ NVM`Nevermind
 NVMD`Never Mind
 NVMS`No Visible Means of Support
 NVN`Not Very Nice
-NVNG`Nothing Ventured, Nothing Gained
+NVNG`Nothing Ventured| Nothing Gained
 NVRM`Never Mind
 NW`No Way
 NWIH`No Way In Hell
@@ -4768,7 +4752,7 @@ NWIM`Not What I Mean
 NWJ`No Way Jose
 NWLY`Never Wanna Lose You
 NWM`No Worries Mate
-NWNC`No Woman, No Cry
+NWNC`No Woman| No Cry
 NWO`New World Order
 NWOT`New Without Tags (eBay)
 NWS`Not Work Safe
@@ -4788,7 +4772,7 @@ NYSE`New York Stock Exchange
 NYT`Not Your Type| New York Times
 NYU`New York University
 O`Ounce
-O RLY`Oh, Really?
+O RLY`Oh| Really?
 O&O`Over and Out
 O-O`Shock
 O.O`Wide eyed
@@ -4803,15 +4787,15 @@ OAO`Over And Out
 OAP`Old Age Pensioner
 OATUS`On A Totally Unrelated Subject
 OAUS`On An Unrelated Subject
-OB`Oh, Brother
-OBBY`Oh, Baby
+OB`Oh| Brother
+OBBY`Oh| Baby
 OBE`Overcome By Events| Out of Body Experience| Order of the British Empire
 OBGYN`Gynecologist
 OBHWF`One Big Happy Weasely Family
 OBO`Or Best Offer
-OBQ`Oh, Be Quiet
+OBQ`Oh| Be Quiet
 OBS`Obviously
-OBTW`Oh, By The Way
+OBTW`Oh| By The Way
 OBV`Obviously
 OBVI`Obviously
 OBVS`Obviously
@@ -4822,7 +4806,7 @@ OC`Of Course| Original Character| Orange County
 OCD`Obsessive Compulsive Disorder
 OCH`Oh
 OCN`Of Course Not
-OCO`Oh, Come On
+OCO`Oh| Come On
 OCR`Optical Character Recognition
 OCT`On Company Time
 OD`Overdose| Over Doing it
@@ -4838,7 +4822,7 @@ OED`Oxford English Dictionary
 OEM`Original Equipment Manufacurer
 OFAY`Offensive term for a white person
 OFC`Of Course
-OFGS`Oh, For God's Sake
+OFGS`Oh| For God's Sake
 OFH`Old Folks' Home
 OFOC`Overwhelming Feelings of Concern
 OFWGKTA`Odd Future Wolf Gang Kill Them All
@@ -4849,16 +4833,16 @@ OGM`misspelling of OMG
 OGN`Online Gaming Network
 OH`Other Half
 OHAC`Own House And Car
-OHAI`Oh, Hi
-OHIM`Oh Hell, It's Monday
-OHK`Oh,Ok
+OHAI`Oh| Hi
+OHIM`Oh Hell| It's Monday
+OHK`Oh|Ok
 OHKO`One Hit Knock Out
-OHN`Oh Hell, No!
+OHN`Oh Hell| No!
 OHS`Operator Head Space
 OHT`One Handed Typing
 OHW`One Hit Wonder
 OI`Hey
-OIC`Oh, I See
+OIC`Oh| I See
 OIK`Unpleasant| unpopular person
 OIY`Hey
 OJ`Only Joking
@@ -4891,7 +4875,7 @@ OMFUG`Other Music Found UnderGround
 OMG`Oh My God
 OMGA`Oh My Giddy Aunt
 OMGD`Oh My God Dude
-OMGNA`Oh My Gosh, Not Again
+OMGNA`Oh My Gosh| Not Again
 OMGSH`Oh My Gosh
 OMGZ`OMG
 OMJ`Oh My Jonas
@@ -4911,9 +4895,9 @@ ONE OFF`Happened Once
 ONG `OMG
 ONION`Ounce of a drug
 ONL`Online
-ONM`Oh, Never Mind
-ONNA`Oh No, Not Again
-ONNTA`Oh No, Not This Again
+ONM`Oh| Never Mind
+ONNA`Oh No| Not Again
+ONNTA`Oh No| Not This Again
 ONO`Or Nearest Offer
 ONOZ`Oh No
 ONS`One Night Stand
@@ -4937,7 +4921,7 @@ OOO`Out Of Office
 OOP`Out Of Place
 OOPS`Word said after doing something wrong
 OOS`Out Of Style
-OOSOOM`Out Of Sight, Out Of Mind
+OOSOOM`Out Of Sight| Out Of Mind
 OOT`Out Of Town
 OOTB`Out Of The Box
 OOTC`Obligatory On-Topic Comment
@@ -4951,13 +4935,13 @@ OPA`Greek exclamation
 OPB`Other People's Business
 OPK`Other People's Kids
 OPM`Other People's Money
-OPPA`Older brother, male friend
+OPPA`Older brother| male friend
 OPPS`oops
 OPS`Operations| Oops
 OPSEC`Operations Security
-OREO`Black on the outside, white on the inside
+OREO`Black on the outside| white on the inside
 ORG`Online Reality Games| Organization
-ORITE`Alright, hello
+ORITE`Alright| hello
 ORKUT`Google's social network
 ORLY`Oh Really
 ORN`Oh Really Now
@@ -4998,7 +4982,6 @@ OTS`On The Side
 OTT`Over The Top
 OTTH`On The Third Hand
 OTTOMH`Off The Top Of My Head
-OTW`On The Way
 OTW`On The Whole
 OTY`Over To You
 OTZ`ORZ
@@ -5012,12 +4995,12 @@ OUTTA`Out Of
 OVA`Original Video Animation
 OVNO`Or Very Near Offer
 OVO`Obviously
-OW`Ouch| Other Woman| Oh, Well
+OW`Ouch| Other Woman| Oh| Well
 OWK`Other World Kingdom
 OWLING`Crouching and staring like an owl
 OWN`Beat| dominate
 OWNED`Dominated
-OWNM`Oh Well, Never Mind
+OWNM`Oh Well| Never Mind
 OWOA`One Way Or Another
 OWS`Occupy Wall Street
 OWT`Anything
@@ -5085,7 +5068,6 @@ PBQ`Please Be Quiet
 PBR`Pabst Blue Ribbon (beer)
 PBS`Public Broadcasting Service
 PBUH`Peace Be Upon Him
-PBUH`Peace Be Upon Him
 PBWU`Peace Be With You
 PBWY`Peace Be With You
 PC`Politically Correct| Personal Computer
@@ -5121,8 +5103,8 @@ PEBKAC`Problem Exists Between Keyboard And Chair
 PEEPS`People
 PEEPZ`People
 PEER TO PEER`Computer network without a central server
-PEERS`People in the same group, equals in age, background etc
-PEMDAS`Parenthesis, Exponents, Multiply, Divide, Add, Subtract
+PEERS`People in the same group| equals in age| background etc
+PEMDAS`Parenthesis| Exponents| Multiply| Divide| Add| Subtract
 PEN`Penitentiary| jail| prison
 PEN15`Penis
 PENDEJO`Idiot| fool
@@ -5200,7 +5182,7 @@ PJ`Poor Joke| Cheap alcoholic beverage
 PJ'S`Pyjamas| night wear
 PJS`Pajamas
 PK`Player Kill
-PKB`Pot, Kettle, Black
+PKB`Pot| Kettle| Black
 PKI`Public Key Infrastructure
 PKIT`Please Keep In Touch
 PKMN`Pokemon
@@ -5214,7 +5196,7 @@ PLASTIC`Credit Card
 PLC`Public Limited Company
 PLD`Poor Life Decision
 PLEB`Commoner| inferior person
-PLH`Peace, Love and Happiness
+PLH`Peace| Love and Happiness
 PLI`Potential Love Interest
 PLIES`American rapper
 PLIX`Please
@@ -5230,7 +5212,7 @@ PLR`Private Label Rights
 PLS`Please
 PLU`People Like Us
 PLUMBUM`Plumber's crack
-PLUR`Peace, Love, Unity, and Respect
+PLUR`Peace| Love| Unity| and Respect
 PLX`Please
 PLZ`Please
 PMA`Positive Mental Attitude
@@ -5239,10 +5221,10 @@ PMC`Post Meal Cigarette
 PMD`Put Me Down
 PMF`Pardon My French
 PMFJI`Pardon Me For Jumping In
-PMIGBOM`Put Mind In Gear, Before Opening Mouth!
+PMIGBOM`Put Mind In Gear| Before Opening Mouth!
 PMJI`Pardon My Jumping In
 PMT`Pre-Menstrual Tension
-PMYMHMMFSWGAD`Pardon Me, You Must Have Mistaken Me For Someone Who Gives A Damn
+PMYMHMMFSWGAD`Pardon Me| You Must Have Mistaken Me For Someone Who Gives A Damn
 PNC`Point and Click| Partner in Crime
 PNG`Image file format
 PNL`Peace And Love
@@ -5284,7 +5266,7 @@ POT HEAD`Person who smokes WEED
 POTC`Pirates Of The Carribean
 POTD`Post Of The Day
 POTO`Phantom Of The Opera
-POTS`Parents Over The Shoulder| parents watching, I can't really talk
+POTS`Parents Over The Shoulder| parents watching| I can't really talk
 POTUS`President of the United States
 POTW`Patient of the Week 
 POTY`Post Of The Year
@@ -5299,7 +5281,7 @@ PPL`People
 PPLE`People
 PPLZ`People
 PPM`Parts Per Million
-PPPW`Per Person, Per Week
+PPPW`Per Person| Per Week
 PPS`Post-Post Script
 PPT`Microsoft PowerPoint
 PPU`Please Pick Up
@@ -5350,7 +5332,7 @@ PSI`Pounds per Square Inch (pressure)|Greek letter
 PSM`Personal Short Message
 PSN`Playstation Network
 PSP`PlayStation Portable
-PSR`Pretty Standard, Really
+PSR`Pretty Standard| Really
 PST`Please Send Tell| Pacific Standard Time
 PSTN`Public Switched Telephone Network
 PSU`Power Supply Unit
@@ -5406,8 +5388,6 @@ PWOS`Parents Watching Over Shoulder
 PWP`Plot? What Plot?
 PWT`Poor White Trash
 PX`Post Exchange| Part Exchange
-PYP`Play Your Position
-PYT`Pretty Young Thing
 PYP`Play Your Position
 PYT`Pretty Young Thing
 PZ`Peace
@@ -5466,7 +5446,7 @@ RAD`Radical| cool
 RADAR`Radio Detection And Ranging
 RAFL`ROFL
 RAGE`Party very hard| get wasted
-RAGO`Whatever, OK
+RAGO`Whatever| OK
 RAH`Pompous or superior person
 RAIL`Line of cocaine
 RAILS`Lines of cocaine
@@ -5490,7 +5470,7 @@ RATS`Damn
 RAVE`A Large Dance Party
 RAWK`Rock
 RAWL`Roll Around While Laughing
-RAWR`Right Answer, Wrong Reason
+RAWR`Right Answer| Wrong Reason
 RAZZ`Make fun of| Get drunk
 RBAU`Right Back At You
 RBAY`Right Back At You
@@ -5547,7 +5527,7 @@ RFQ`Request For Quotation
 RFT`Right First Time
 RFTS`Reach For The Stars
 RFYL`Run For Your Life
-RGB`Red, Green, Blue
+RGB`Red| Green| Blue
 RGDS`Regards
 RGR`Roger
 RH`Road Head
@@ -5600,12 +5580,12 @@ ROE`Rules Of Engagement
 ROF`Rate Of Fire| ROFL
 ROFC`Rolling On Floor Crying
 ROFL`Rolling On Floor Laughing
-ROFLCOPTER`LOL, ROFL etc
+ROFLCOPTER`LOL| ROFL etc
 ROFLMFAO`Rolling On Floor Laughing My F***ing A** Off
-ROFLOL`Rolling On Floor, Laughing Out Loud
+ROFLOL`Rolling On Floor| Laughing Out Loud
 ROFTL`ROTFL
 ROG`Really Old Git
-ROGER THAT`I Understand, OK
+ROGER THAT`I Understand| OK
 ROH`Ring of Honor (wrestling)
 ROI`Return on Investment
 ROLF`Rolling On Laughing Floor
@@ -5644,7 +5624,7 @@ RR`Restroom
 RRD`Rick Rolled
 RROD`Red Ring Of Death
 RRP`Recommended Retail Price
-RRR`Reading, 'Riting, 'Rithmetic
+RRR`Reading| 'Riting| 'Rithmetic
 RS`RuneScape
 RSA`An encryption algorithm
 RSI`Repetitive Strain Injury
@@ -5678,7 +5658,7 @@ RUA`Are You Alone?
 RUCA`Girlfriend
 RUDEBOY`Gangster| Ska fan
 RUGGER`Rugby
-RUH ROH`Uh Oh, Scooby Doo style
+RUH ROH`Uh Oh| Scooby Doo style
 RUKA`Gangster girl| MOLL
 RUKM`Are You Kidding Me?
 RUMBLE`Brawl| fight
@@ -5734,7 +5714,7 @@ SALTS`Smiled A Little Then Stopped
 SALUT`Hi
 SAM`Stop Annoying Me
 SAMEFAG`Person with multiple aliases on forums
-SAN`Japanese name suffix, Mr or Ms
+SAN`Japanese name suffix| Mr or Ms
 SANGA`Sandwich
 SANK`Something
 SANS`Without
@@ -5743,7 +5723,7 @@ SARCY`Sarcastic
 SARGE`Chat up
 SARKY`Sarcastic
 SAS`Special Air Service
-SASE`Self-Addressed, Stamped Envelope
+SASE`Self-Addressed| Stamped Envelope
 SAT`Scholastic Assessment Test
 SATA`Serial Advanced Technology Attachment
 SATC`Sex And The City (TV show)
@@ -5772,7 +5752,7 @@ SCART`Audio/Video TV connector
 SCH`School
 SCHEMIE`Someone from a council estate
 SCHWAG`Low grade marijuana
-SCNR`Sorry, Could Not Resist
+SCNR`Sorry| Could Not Resist
 SCO`San Fransisco
 SCOFF`Food| Eat fast| Sneer
 SCOTUS`Supreme Court Of The United States
@@ -5790,19 +5770,19 @@ SCUBA`Self-Contained Underwater Breathing Apparatus
 SD`Sweet Dreams| Secure Digital| So Drunk
 SDA`Seventh-Day Adventist
 SDK`Software Development Kit
-SDMF`Strength, Determination, Merciless, Forever| Society Dwelling Mother F***er
+SDMF`Strength| Determination| Merciless| Forever| Society Dwelling Mother F***er
 SDRAM`Synchronous Dynamic Random Access Memory
 SDSL`Symmetric DSL
 SE`Special Edition
 SEC`Second
 SED`Said
 SEEDS`Marijuana seeds| Children
-SEEN`I see, understood
+SEEN`I see| understood
 SEHR`Very
 SEKC`Sexy
 SEKKLE`Calm down
 SELCA`Self Cam picture
-SELFIE`Picture of yourself, usually taken by yourself
+SELFIE`Picture of yourself| usually taken by yourself
 SEM`Search Engine Marketing
 SENIOR MOMENT`Lapse of memory| logic or mental function
 SEO`Search Engine Optimization
@@ -5845,7 +5825,7 @@ SHEILA`Woman
 SHELL-LIKE`Ear
 SHERLOCKIAN`A Fan Of Sherlock Holmes
 SHERM`Cigarette dipped in PCP
-SHH`Be quiet, shut up
+SHH`Be quiet| shut up
 SHILL`Decoy| person in on a scam
 SHINNY`Informal game of hockey
 SHIOK`happiness| pleasure
@@ -5883,7 +5863,7 @@ SIC`Latin sicut| apparent mistake
 SICK`Awesome| cool
 SICS`Sitting In Chair Snickering
 SID`Acid| LSD
-SIDK`Sorry, I Didn't Know
+SIDK`Sorry| I Didn't Know
 SIDS`Sudden Infant Death Syndrome
 SIF`As If
 SIFS`Secret Internet Fatties
@@ -5891,7 +5871,7 @@ SIG`Signature
 SIGH`Exhale depressedly
 SIK`SICK
 SIKE`Indicating the previous statement is false
-SIKED`Psyched, excited about
+SIKED`Psyched| excited about
 SIL`Son-In-Law
 SIM`Subscriber Identity Module
 SIM CARD`Subscriber Identity Module for a mobile phone
@@ -5926,7 +5906,7 @@ SKINT`Broke| having no money
 SKITTLES`Drugs
 SKITZ`Schitzophrenic
 SKL`School
-SKN`OK, cool, whatever
+SKN`OK| cool| whatever
 SKO`Let's Go
 SKOOL`School
 SKRILLA`Money
@@ -5973,7 +5953,7 @@ SMH`Shaking My Head
 SMHID`Shaking My Head In Despair
 SMHL`Shaking My Head Laughing
 SMIB`Southern Maryland Inbred
-SMIDSY`Sorry Mate, I Didn't See You
+SMIDSY`Sorry Mate| I Didn't See You
 SMIZE`Smile with your eyes
 SML`Screw My Life| Story of My Life
 SMN`Shoot Me Now
@@ -5988,7 +5968,7 @@ SMTP`Simple Mail Transfer Protocol
 SMURF`Experienced gamer posing as a newbie
 SN`Screen Name| Side Note
 SN1`Spare No One
-SNAFU`Situation Normal, All Fouled Up
+SNAFU`Situation Normal| All Fouled Up
 SNAG`Sensitive New Age Guy| Sausage
 SNAIL MAIL`Regular postal service
 SNAKE`Snitch| back stabber
@@ -6053,20 +6033,19 @@ SOUND`Cool| awesome| good
 SOUR`Strong WEED
 SOW`Female police officer
 SOWIE`Sorry
-SOWIE`Sorry
 SOX`Socks
 SOY`Shame On You
 SOYW`Something On Your Wall
 SOZ`Sorry
 SP2`Service Pack 2
-SPAG`Spelling, Punctuation And Grammar
+SPAG`Spelling| Punctuation And Grammar
 SPAM`Unsolicted email
 SPANNER`Idiot| fool
 SPARK`Set light to
 SPAT`Fight| argument| tiff
 SPAZ`Spastic
 SPCA`Society for the Prevention of Cruelty to Animals
-SPECTRE`Special Executive for Counter-intelligence, Terrorism, Revenge, and Extortion
+SPECTRE`Special Executive for Counter-intelligence| Terrorism| Revenge| and Extortion
 SPED`Someone who needs special education
 SPERG`Dramatically Passionate Or Obsessive About A Subject
 SPEXY`Sexy with glasses
@@ -6090,7 +6069,7 @@ SPOT ON`Absolutely correct| perfect
 SPQR`Senatus Populusque Romanus| the Senate and the people of Rome
 SPROG`Child
 SPRUNG`Obsessed with someone| in love
-SPST`Same Place, Same Time
+SPST`Same Place| Same Time
 SPUN`Under the influence of methamphetamine
 SPURS`US Basketball team| UK football team
 SQ`Sound Quality
@@ -6108,7 +6087,7 @@ SS`Screen Shot
 SSA`Subject Says All
 SSBB`Super Smash Brothers Brawl
 SSBHM`Super Sized BHM
-SSC`Safe, Sane, Consensual
+SSC`Safe| Sane| Consensual
 SSD`Solid State Drive
 SSDD`Same Stuff Different Day
 SSH`Secure Shell
@@ -6182,7 +6161,7 @@ SUM1`Someone
 SUMFIN`Something
 SUMMAT`Something
 SUP`What's Up
-SUPER`Very, really
+SUPER`Very| really
 SUS`Suspect| suspicious
 SUSS`Discover| understand| Suspicious
 SUV`Sport Utility Vehicle
@@ -6199,7 +6178,7 @@ SWALK`Sealed With A Loving Kiss
 SWAMBO`She Who Always Must Be Obeyed
 SWANK`Cool| classy| Single Woman And No Kids| Second Wife And No Kids
 SWAT`Special Weapons And Tactics
-SWEAT`Like, love
+SWEAT`Like| love
 SWED`Smoke Weed Every Day
 SWEET`Awesome
 SWEETIE`Pet name for BF or GF
@@ -6211,7 +6190,7 @@ SWG`Star Wars Galaxies (game)
 SWIDT`See What I Did There?
 SWIFT`Awesome
 SWIM`Someone Who Isn't Me
-SWIR`So Wrong, It's Right
+SWIR`So Wrong| It's Right
 SWISHER`Cheap cigar used for making BLUNTs
 SWIY`Someone Who Isn't You
 SWIZ`Con| rip-off
@@ -6255,6 +6234,7 @@ SYT`See You Tomorrow| See You There
 SYTYCD`So You Think You Can Dance
 SYWISY`See You When I See You
 S^`What's Up
+Slag`Meaning
 T-T`Crying
 T.T`Crying
 T2M`Talk To Me
@@ -6295,7 +6275,7 @@ TARFU`Things Are Really Fouled Up
 TASTY`Good looking| Cool| awesome
 TAT`Tattoo| Rubbish| junk
 TATA`Goodbye
-TATO`Alright, OK
+TATO`Alright| OK
 TATT`Tattoo
 TAV`Marijuana
 TAW`Teachers Are Watching
@@ -6314,14 +6294,14 @@ TBFU`Too Bad For You
 TBH`To Be Honest
 TBM`Tactical Boyfriend Mention
 TBMS`To Be More Specific
-TBNT`Thanks, But No Thanks
+TBNT`Thanks| But No Thanks
 TBPH`To Be Perfectly Honest
 TBQF`To Be Quite Frank
 TBQFH`To Be Quite F***ing Honest
 TBQH`To Be Quite Honest
 TBR`To Be Real
 TBS`Tablespoon| To Be Specified
-TBSS`Too Bad, So Sad
+TBSS`Too Bad| So Sad
 TBT`Truth Be Told
 TBTF`Too Big To Fail
 TBTG`Thanks Be To God
@@ -6338,7 +6318,7 @@ TCFC`Too Close For Comfort
 TCFN`Take Care For Now
 TCFS`Too Cool For School
 TCG`Trading Card Game
-TCGB`Take Care, God Bless
+TCGB`Take Care| God Bless
 TCH`disagreement| frustration
 TCK`Third Culture Kid
 TCL`Tool Command Language
@@ -6352,7 +6332,7 @@ TDDUP`Til Death Do Us Part
 TDDWP`Til Death Do We Part
 TDF`To Die For
 TDG`Too Damn Good| Three Days Grace (band)
-TDH`Tall, Dark, and Handsome
+TDH`Tall| Dark| and Handsome
 TDI`Turbo Direct Injection| Turbo Diesel Injection
 TDL`To Do List
 TDM`Team DeathMatch
@@ -6376,8 +6356,7 @@ TELNET`Network Virtual Terminal Protocol
 TEMP`Temporary
 TEN`Person with a perfect body
 TEOTWAWKI`The End Of The World As We Know It
-TEOTWAWKI`The End Of The World As We Know It
-TERRIBAD`Terrible and Bad, awful
+TERRIBAD`Terrible and Bad| awful
 TEVS`Whatever
 TEXT`An SMS message sent between cell phones
 TF2`Team Fortress 2
@@ -6403,7 +6382,7 @@ TFTD`Thought For The Day
 TFTI`Thanks For The Info
 TFTL`Thanks for the Link
 TG`Thank God| Transgender| Too Good
-TGAL`Think Globally, Act Locally
+TGAL`Think Globally| Act Locally
 TGE`the
 TGFG`Thank God For Google
 TGFI`Thank God For the Internet
@@ -6551,12 +6530,12 @@ TNLN`Took Nothing Left Nothing
 TNO`Trust No One
 TNOP`Totally Not Our Problem
 TNOT`Take Note Of That
-TNSL`Took Nothing, Signed Logbook
+TNSL`Took Nothing| Signed Logbook
 TNSTAAFL`There's No Such Thing As A Free Lunch
 TNT`Til Next Time
 TNTM`That's News To Me
 TNX`Thanks
-TO BOOT`As well, also
+TO BOOT`As well| also
 TOAO`The One And Only
 TOASTIE`Toasted sandwich
 TOC`Table Of Contents
@@ -6610,7 +6589,7 @@ TPAM`The Person Above Me
 TPB`The Pirate Bay
 TPE`Total Power Exchange
 TPK`Total Party Kill
-TPO`Time, Place, Occasion
+TPO`Time| Place| Occasion
 TPS`Totally pointless stuff
 TPT`Trailer Park Trash
 TPTB`The Powers That Be
@@ -6619,7 +6598,7 @@ TQM`Te Quiero Mucho| I Like You A Lot
 TR`Triple Rainbow
 TR00`True| loyal
 TRA`Bye
-TRAW`Thick, Rich And White
+TRAW`Thick| Rich And White
 TRDMC`Tears Running Down My Cheeks
 TRDMF`Tears Running Down My Face
 TREE`Marijuana
@@ -6828,7 +6807,7 @@ UMTWTM`You Mean The World To Me
 UN`United Nations
 UNCE`Sound of club music
 UNDIES`Underwear
-UNESCO`United Nations Educational, Scientific and Cultural Organization
+UNESCO`United Nations Educational| Scientific and Cultural Organization
 UNI`University
 UNICEF`United Nations Children's Fund
 UNIX`Computer operating system
@@ -6872,7 +6851,7 @@ UTC`Coordinated Universal Time| Under The Counter
 UTD`Up To Date
 UTE`Utility vehicle| pickup truck
 UTF`Unicode Transformation Format
-UTFL`Use The Force, Luke
+UTFL`Use The Force| Luke
 UTH`Up The Hoods
 UTI`Urinary Tract Infection
 UTO`Unable To Obtain
@@ -6895,7 +6874,7 @@ V8`Engine type| Vegetable drink
 VA`Various Artists
 VA JAY JAY`Vagina
 VAC`Valve Anti-Cheat
-VACA`Vacation, holiday
+VACA`Vacation| holiday
 VACAY`Vacation
 VAIR`Very
 VANILLA`Unexciting| conventional
@@ -6995,7 +6974,7 @@ WAAM`What's going on| what's up
 WAAN`Want
 WACK`Low quailty| lame
 WADR`With All Due Respect
-WAEFRD`When All Else Fails, Read Directions
+WAEFRD`When All Else Fails| Read Directions
 WAFFLE`Pointless talk
 WAFWOT`What A F***ing Waste Of Time
 WAG1`What's Going On?
@@ -7106,14 +7085,14 @@ WEF`With Effect From
 WEG`Wicked Evil Grin| Wide Evil Grin
 WEHT`What Ever Happened To?
 WEIN`What Else Is New?
-WEL`Whatever, Loser
+WEL`Whatever| Loser
 WELC`You're Welcome
-WELL`Very, so
+WELL`Very| so
 WELP`Well
 WEML`Whatever Major Loser
 WENG`Good looking
 WEP`Wireless Encryption Protocol
-WEPA`All right| cool, yeah!
+WEPA`All right| cool| yeah!
 WERD`agreement
 WERK`approval| praise
 WET BACK`Illegal immigrant
@@ -7143,7 +7122,7 @@ WHISKEY TANGO`WT| White Trash
 WHITEWASH`Act like a white person
 WHIZ`Talented person
 WHOA`surprise| Slow down
-WHPH`Work Hard, Play Hard
+WHPH`Work Hard| Play Hard
 WHS`What He Said
 WHT`What
 WHUT`What
@@ -7151,7 +7130,7 @@ WHYB`Where Have You Been?
 WHYD`What Have You Done?
 WIA`Wounded In Action
 WIBNI`Wouldn't It Be Nice If
-WIC`Women, Infants and Children| World in Conflict
+WIC`Women| Infants and Children| World in Conflict
 WICKED`Very| extremely| Cool| great
 WID`With
 WIDOW`WW
@@ -7220,7 +7199,7 @@ WOF`While On Fire
 WOG`Offensive term for a black person| A foreigner
 WOLS`Slow
 WOM`Women Over Mates
-WOMBAT`Waste Of Money, Brains, And Time
+WOMBAT`Waste Of Money| Brains| And Time
 WOMP`Low bass sound
 WONGA`Money
 WONK`Expert
@@ -7232,7 +7211,7 @@ WOOSE`WUSS
 WOOT`Hurrah| Want One Of Those
 WOP`Offensive term for an Italian
 WOR`Our
-WORD UP`OK, I agree
+WORD UP`OK| I agree
 WORM`Malicious computer program
 WOS`Waste Of Space| Wife Over Shoulder
 WOT`What
@@ -7255,7 +7234,7 @@ WRUD`What Are You Doing?
 WRUTA`What Are You Talking About?
 WRYD`What Are You Doing?
 WRYTA`What Are You Talking About?
-WSA`Wow, Strong Arms
+WSA`Wow| Strong Arms
 WSIC`Why Should I Care?
 WSM`Woman Seeking Man
 WSP`What's up?
@@ -7274,7 +7253,7 @@ WTDT`What To Do Today
 WTDTA`Where They Do That At?
 WTFT`What The French Toast| polite WTF
 WTG`Way To Go
-WTGP`Way To Go, Partner
+WTGP`Way To Go| Partner
 WTGP?`Want To Go Private?
 WTH`What The Hell
 WTHAY`Who The Hell Are You?
@@ -7301,7 +7280,7 @@ WTTJ`Welcome To The Jungle
 WTTM`Without Thinking Too Much
 WTV`Whatever
 WTW`Walk Through Walls| Walk this Way
-WTY`Why, Thank You
+WTY`Why| Thank You
 WTYO`Whatever Turns You On
 WU`What's Up
 WUA`What You At?
@@ -7333,7 +7312,6 @@ WUWH`Wish You Were Here
 WUWT`What's Up With That
 WUWTA`What You Wanna Talk About?
 WUWTB`What You Wanna Talk 'Bout?
-WUWU`What's Up With You?
 WUWU`What's Up With You?
 WUZ`Was
 WW`White Widow| White Woman
@@ -7431,9 +7409,9 @@ Y2K`Year 2000
 YA`You| Yes| Young Adult
 YAAR`Dude| mate
 YACC`Yet Another Compiler-Compiler
-YADA`And so on, blah
+YADA`And so on| blah
 YAGB`You Ain't Grizz Baby (COD)
-YAHOO`Yob, lout
+YAHOO`Yob| lout
 YAHWEH`The name of God in hebrew
 YAK`You Already Know
 YAL`Girl
@@ -7523,7 +7501,7 @@ YHTBT`You Had To Be There
 YHU`You
 YHWH`Yahweh| God
 YID`Yes I Do
-YIK`Yes, I Know
+YIK`Yes| I Know
 YIKES`shock| surprise
 YIM`Yahoo! Instant Messenger
 YINS`You guys| you all
@@ -7572,11 +7550,11 @@ YOUNS`You guys| you all
 YOUS`You| you guys
 YOUSE`You
 YOYO`You're On Your Own
-YP`Your Problem| Yes, Please
+YP`Your Problem| Yes| Please
 YPU`you
 YQ`I Like You
 YQW`You're Quite Welcome
-YR`Yea, Right.
+YR`Yea| Right.
 YRG`You Are Good!
 YRMV`Your Results May Vary
 YRO`Your Rights Online
@@ -7589,14 +7567,14 @@ YSL`Yves Saint Laurent
 YSMTU`You So Made That Up
 YSS`You Suck Severely
 YSVW`You're So Very Welcome
-YSYL`You Snooze, You Loose
+YSYL`You Snooze| You Loose
 YT`Are you there?
 YT?`You Think ?
 YTB`You're The Best
 YTD`Year To Date
 YTM`You're The Man
 YTML`You'll Thank Me Later
-YTMND`You're The Man Now, Dog
+YTMND`You're The Man Now| Dog
 YTO`You're The One
 YTP`YouTube Poop
 YTTM`You Talk Too Much| You Talking To Me?
@@ -7616,7 +7594,7 @@ YVW`You're Very Welcome
 YW`You're Welcome
 YWCA`Young Women's Christian Association
 YWIMC`Your Wish Is My Command
-YWSYLS`You Win Some, You Lose Some
+YWSYLS`You Win Some| You Lose Some
 YWU?`Yo What's Up?
 ZA`Pizza
 ZAIN`Beautiful

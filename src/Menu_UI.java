@@ -41,9 +41,8 @@ public class Menu_UI extends JFrame implements ActionListener {
     public void menu_ui() {
         try {
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
             JPanel panel3=new JPanel();
-       /*     panel3.setLayout(new BoxLayout(panel3,BoxLayout.PAGE_AXIS));*/
+            panel3.setBackground(new Color(103,104,171));
             JLabel text=new JLabel("Dictionary");
             text.setFont(new Font("Serif", Font.PLAIN, 70));
             panel3.add(text,BorderLayout.CENTER);
@@ -53,7 +52,6 @@ public class Menu_UI extends JFrame implements ActionListener {
             panel1 = new JPanel();
             Search_text = new TextField("Enter");
             dict= new Dict();
-            Value = dict.readfile();
             mode= new DefaultTableModel(null,columnname/*Value,columnname*/);
             table1 = new JTable(mode);
             table1.getTableHeader().setFont(new Font("Serif", Font.PLAIN,20));
@@ -92,35 +90,46 @@ public class Menu_UI extends JFrame implements ActionListener {
             game_defini_button=new Button(" Random Definition");
             game_defini_button.setFont(new Font("Serif", Font.PLAIN,20));
 
+
             search_slang_button.setActionCommand("search_slang");
             search_slang_button.addActionListener(this);
+            search_slang_button.setBackground(new Color(103,104,171));
 
             search_mean_button.setActionCommand("search_mean");
             search_mean_button.addActionListener(this);
+            search_mean_button.setBackground(new Color(103,104,171));
 
             edit_button.setActionCommand("edit");
             edit_button.addActionListener(this);
+            edit_button.setBackground(new Color(103,104,171));
 
             delete_button.setActionCommand("delete");
             delete_button.addActionListener(this);
+            delete_button.setBackground(new Color(103,104,171));
 
             reset_button.setActionCommand("reset");
             reset_button.addActionListener(this);
+            reset_button.setBackground(new Color(103,104,171));
 
             random_button.setActionCommand("random");
             random_button.addActionListener(this);
+            random_button.setBackground(new Color(103,104,171));
 
             history_button.setActionCommand("history");
             history_button.addActionListener(this);
+            history_button.setBackground(new Color(103,104,171));
 
             add_button.setActionCommand("add");
             add_button.addActionListener(this);
+            add_button.setBackground(new Color(103,104,171));
 
             game_defini_button.setActionCommand("randomdefini");
             game_defini_button.addActionListener(this);
+            game_defini_button.setBackground(new Color(103,104,171));
 
             game_random_slang_button.setActionCommand("randomslang");
             game_random_slang_button.addActionListener(this);
+            game_random_slang_button.setBackground(new Color(103,104,171));
 
             panel2.add(search_slang_button);
             panel2.add(Box.createRigidArea(new Dimension(10,35)));
@@ -163,6 +172,12 @@ public class Menu_UI extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String command=e.getActionCommand();
+        try {
+            Value = dict.readfile();
+        }
+        catch (Exception ev){
+            ev.printStackTrace();
+        }
         if(command=="search_mean"){
             String temp=Search_text.getText();
             mode.getDataVector().removeAllElements();
@@ -187,7 +202,7 @@ public class Menu_UI extends JFrame implements ActionListener {
                     Object []Temp=new Object[]{Value[i][0],Value[i][1]};
                     mode.addRow(Temp);
                     try {
-                        dict.Writefile(Temp);
+                        dict.Writefile_History(Temp);
                     }
                     catch (Exception ev){
                         ev.printStackTrace();
@@ -199,8 +214,13 @@ public class Menu_UI extends JFrame implements ActionListener {
             }
         }
         if(command=="history"){
-            super.dispose();
-
+            try {
+                History_UI history = new History_UI();
+                history.history_ui();
+            }
+            catch (Exception ev){
+                JOptionPane.showMessageDialog(null, "Empty", "Empty", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
         if(command=="edit");
 
@@ -210,7 +230,11 @@ public class Menu_UI extends JFrame implements ActionListener {
 
         if(command=="random");
 
-        if(command=="add");
+        if(command=="add"){
+            String temp=Search_text.getText();
+            Add_UI add=new Add_UI();
+            add.add_ui();
+        }
 
         if(command=="randomdefini");
 
