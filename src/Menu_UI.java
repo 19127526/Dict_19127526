@@ -8,7 +8,9 @@ import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 import java.util.Locale;
+import java.util.Random;
 import java.util.Vector;
 import java.util.regex.PatternSyntaxException;
 
@@ -40,6 +42,9 @@ public class Menu_UI extends JFrame implements ActionListener {
     String[] columnname = new String[]{"Slang", "Meaning"};
     public void menu_ui() {
         try {
+            this.getContentPane().setBackground(new Color(103,104,171));
+            dict=new Dict();
+            dict.Copy_File();
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             JPanel panel3=new JPanel();
             panel3.setBackground(new Color(103,104,171));
@@ -51,11 +56,13 @@ public class Menu_UI extends JFrame implements ActionListener {
 
             panel1 = new JPanel();
             Search_text = new TextField("Enter");
-            dict= new Dict();
+            Search_text.setBackground(new Color(103,104,171));
             mode= new DefaultTableModel(null,columnname/*Value,columnname*/);
             table1 = new JTable(mode);
+            table1.setBackground(new Color(103,104,171));
             table1.getTableHeader().setFont(new Font("Serif", Font.PLAIN,20));
             table1.setFont(new Font("Serif", Font.PLAIN,20));
+            table1.getTableHeader().setBackground(new Color(103,104,171));
             table1.setRowHeight(30);
             table1.setDefaultEditor(Object.class, null);
             scrollPane = new JScrollPane(table1);
@@ -93,44 +100,43 @@ public class Menu_UI extends JFrame implements ActionListener {
 
             search_slang_button.setActionCommand("search_slang");
             search_slang_button.addActionListener(this);
-            search_slang_button.setBackground(new Color(103,104,171));
+            search_slang_button.setBackground(new Color(171,136,103));
 
             search_mean_button.setActionCommand("search_mean");
             search_mean_button.addActionListener(this);
-            search_mean_button.setBackground(new Color(103,104,171));
+            search_mean_button.setBackground(new Color(171,136,103));
 
             edit_button.setActionCommand("edit");
             edit_button.addActionListener(this);
-            edit_button.setBackground(new Color(103,104,171));
+            edit_button.setBackground(new Color(171,136,103));
 
             delete_button.setActionCommand("delete");
             delete_button.addActionListener(this);
-            delete_button.setBackground(new Color(103,104,171));
+            delete_button.setBackground(new Color(171,136,103));
 
             reset_button.setActionCommand("reset");
             reset_button.addActionListener(this);
-            reset_button.setBackground(new Color(103,104,171));
+            reset_button.setBackground(new Color(171,136,103));
 
             random_button.setActionCommand("random");
             random_button.addActionListener(this);
-            random_button.setBackground(new Color(103,104,171));
+            random_button.setBackground(new Color(171,136,103));
 
             history_button.setActionCommand("history");
             history_button.addActionListener(this);
-            history_button.setBackground(new Color(103,104,171));
+            history_button.setBackground(new Color(171,136,103));
 
             add_button.setActionCommand("add");
             add_button.addActionListener(this);
-            add_button.setBackground(new Color(103,104,171));
+            add_button.setBackground(new Color(171,136,103));
 
             game_defini_button.setActionCommand("randomdefini");
             game_defini_button.addActionListener(this);
-            game_defini_button.setBackground(new Color(103,104,171));
+            game_defini_button.setBackground(new Color(171,136,103));
 
             game_random_slang_button.setActionCommand("randomslang");
             game_random_slang_button.addActionListener(this);
-            game_random_slang_button.setBackground(new Color(103,104,171));
-
+            game_random_slang_button.setBackground(new Color(171,136,103));
             panel2.add(search_slang_button);
             panel2.add(Box.createRigidArea(new Dimension(10,35)));
             panel2.add(search_mean_button);
@@ -150,7 +156,7 @@ public class Menu_UI extends JFrame implements ActionListener {
             panel2.add(game_random_slang_button);
             panel2.add(Box.createRigidArea(new Dimension(10,30)));
             panel2.add(game_defini_button);
-
+            panel2.setBackground(new Color(103,104,171));
             /*panel2.add(Box.createRigidArea(new Dimension(0,100)));*/
             add(panel2,BorderLayout.EAST);
 
@@ -201,6 +207,7 @@ public class Menu_UI extends JFrame implements ActionListener {
                     k=true;
                     Object []Temp=new Object[]{Value[i][0],Value[i][1]};
                     mode.addRow(Temp);
+                    System.out.println(Value[i][0]);
                     try {
                         dict.Writefile_History(Temp);
                     }
@@ -225,21 +232,55 @@ public class Menu_UI extends JFrame implements ActionListener {
         if(command=="edit"){
             Edit_UI edit=new Edit_UI();
             edit.edit_ui();
+            this.dispose();
         }
 
-        if(command=="delete");
+        if(command=="delete"){
+            Delete_UI delete=new Delete_UI();
+            delete.delete_ui();
+            this.dispose();
+        }
 
-        if(command=="reset");
+        if(command=="reset"){
+            try {
+                dict.Writefile_data("", "", 5);
+                mode.setRowCount(0);
+                Search_text.setText("");
+                JOptionPane.showMessageDialog(null, "Success!", "Success", JOptionPane.INFORMATION_MESSAGE);
+            }
+            catch (Exception ev){
+                JOptionPane.showMessageDialog(null, "Error!", "Error", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
 
-        if(command=="random");
+        if(command=="random"){
+            mode.getDataVector().removeAllElements();
+            Random rand=new Random();
+            String[] currentRoom=Value[rand.nextInt(Value.length)];
+            System.out.println(currentRoom.length);
+            mode.addRow(currentRoom);
+            try {
+                dict.Writefile_History(currentRoom);
+            }
+            catch (Exception ev){
+                ev.printStackTrace();
+            }
+        }
 
         if(command=="add"){
             Add_UI add=new Add_UI();
             add.add_ui();
+            this.dispose();
         }
 
-        if(command=="randomdefini");
+        if(command=="randomdefini"){
 
-        if(command=="randomslang");
+        }
+
+        if(command=="randomslang"){
+            /*this.dispose();*/
+            random_slang_ui ranslang=new random_slang_ui();
+            ranslang.Random_Slang_UI();
+        }
     }
 }

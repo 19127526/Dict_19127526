@@ -23,7 +23,6 @@ public class History_UI extends JFrame implements ActionListener {
         JLabel label=new JLabel("History");
         panel.setBackground(new Color(103,104,171));
         label.setFont(new Font("Serif", Font.PLAIN, 70));
-
         panel.add(label,BorderLayout.CENTER);
         add(panel,BorderLayout.NORTH);
 
@@ -43,13 +42,14 @@ public class History_UI extends JFrame implements ActionListener {
         JScrollPane scrollPane = new JScrollPane(table1);
 
         back=new JButton("Back");
-        back.setFont(new Font("Serif", Font.PLAIN,20));
-        back.setMaximumSize(new Dimension(100,100));
+        back.setFont(new Font("Serif", Font.PLAIN,30));
+        back.setMaximumSize(new Dimension(200,100));
         back.setAlignmentX(CENTER_ALIGNMENT);
         back.setActionCommand("Back");
-        back.setBackground(new Color(103,104,171));
+        back.setBackground(new Color(171,136,103));
         back.addActionListener(this);
 
+        panel1.setBackground(new Color(103,104,171));
         panel1.add(scrollPane,BorderLayout.CENTER);
         panel1.add(back);
         panel1.add(Box.createRigidArea(new Dimension(0,30)));

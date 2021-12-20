@@ -12,10 +12,33 @@ import java.util.*;
 public class Dict {
     public TreeMap<String,Vector<String>> dict;
     private String NameFile="slang.txt";
+    private String NameFile_Execute="slang_ex.txt";
     private String History="History.csv";
     public String Key=null;
     Dict(){
         dict=new TreeMap<String,Vector<String>>();
+    }
+    public void  Copy_File(){
+        BufferedReader br=null;
+        BufferedWriter bw=null;
+        try{
+            File name=new File(NameFile_Execute);
+            if(name.exists()){
+                return;
+            }
+            String thisLine=null;
+            br=new BufferedReader(new FileReader(NameFile));
+            bw=new BufferedWriter(new FileWriter(NameFile_Execute));
+            while ((thisLine = br.readLine()) != null) {
+                bw.append(thisLine);
+                bw.newLine();
+            }
+            br.close();
+            bw.close();
+
+        }catch (Exception ev){
+            ev.printStackTrace();
+        }
     }
     String[] xuly(String temp){
         try {
@@ -96,6 +119,7 @@ public class Dict {
         }
     }
     public String[][] readfile()throws  IOException{
+        dict.clear();
         String[][]value=null;
         String thisLine=null;
         String temp_key=null;
@@ -119,7 +143,7 @@ public class Dict {
             for(String tk:tempkey){
                 value[i]=new String[2];
                 value[i][0]=tk;
-                value[i][1]=dict.get(tk.toString()).toString();
+                value[i][1]=dict.get(tk.toString()).toString().replace("|",",");
                 i++;
             }
             a.close();
@@ -185,6 +209,68 @@ public class Dict {
                 File b=new File("1"+NameFile);
                 a.delete();
                 b.renameTo(a);
+                return;
+            }
+            //edit
+            if(check==3){
+                bw=new BufferedWriter(new FileWriter("1"+NameFile,true));
+                Set<String>tempkey=dict.keySet();
+                for(String tk:tempkey){
+                    if(tk.equals(slang)){
+                        bw.append(slang+"`"+word.replace(",","|"));
+                    }
+                    else {
+                        String tmp = tk + "`" + dict.get(tk).toString().replace(',', '|').replace("[", "").replace("]", "");
+                        bw.append(tmp);
+                    }
+                    bw.newLine();
+                }
+                br.close();
+                bw.close();
+                File a =new File(NameFile);
+                File b=new File("1"+NameFile);
+                a.delete();
+                b.renameTo(a);
+                return;
+            }
+            if(check==4){
+                bw=new BufferedWriter(new FileWriter("1"+NameFile,true));
+                Set<String>tempkey=dict.keySet();
+                for(String tk:tempkey){
+                    if(tk.equals(slang)){
+                    }
+                    else {
+                        String tmp = tk + "`" + dict.get(tk).toString().replace(',', '|').replace("[", "").replace("]", "");
+                        bw.append(tmp);
+                        bw.newLine();
+                    }
+                }
+                br.close();
+                bw.close();
+                File a =new File(NameFile);
+                File b=new File("1"+NameFile);
+                a.delete();
+                b.renameTo(a);
+                return;
+            }
+            if(check==5){
+                try{
+                    File name=new File(NameFile_Execute);
+                    if(!name.exists()){
+                        return;
+                    }
+                    String thisLine1=null;
+                    br=new BufferedReader(new FileReader(NameFile_Execute));
+                    bw=new BufferedWriter(new FileWriter(NameFile));
+                    while ((thisLine1 = br.readLine()) != null) {
+                        bw.append(thisLine1);
+                        bw.newLine();
+                    }
+                    br.close();
+                    bw.close();
+                }catch (Exception ev){
+                    ev.printStackTrace();
+                }
                 return;
             }
         }

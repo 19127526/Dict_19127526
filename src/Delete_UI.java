@@ -7,11 +7,11 @@ import java.io.IOException;
 /**
  * PACKAGE_NAME
  * Created by Admin
- * Date 12/20/2021 - 1:30 AM
+ * Date 12/20/2021 - 3:47 PM
  * Description: ...
  */
-public class Edit_UI implements ActionListener {
-    private JFrame edit_slang=new JFrame();
+public class Delete_UI implements ActionListener {
+    private JFrame delete_slang=new JFrame();
     private JLabel slang_text;
     private JLabel mean_text;
     private JTextField slang;
@@ -27,35 +27,37 @@ public class Edit_UI implements ActionListener {
     private JButton Check=new JButton("Check");
     private String [][]Value;
     private Dict dict=new Dict();
-    public void edit_ui(){
-        BoxLayout boxx=new BoxLayout(edit_slang.getContentPane(),BoxLayout.Y_AXIS);
-        edit_slang.setLayout(boxx);
-        edit_slang.getContentPane().setBackground(new Color(103,104,171));
-        text=new JLabel("Edit Slang Word");
+    public void delete_ui(){
+        BoxLayout boxx=new BoxLayout(delete_slang.getContentPane(),BoxLayout.Y_AXIS);
+        delete_slang.setLayout(boxx);
+        delete_slang.getContentPane().setBackground(new Color(103,104,171));
+
+        text=new JLabel("Delete Slang Word");
         text.setFont(new Font("Serif", Font.PLAIN, 70));
         panel1=new JPanel();
         panel1.setBackground(new Color(103,104,171));
         panel1.add(text, BorderLayout.CENTER);
-        edit_slang.add(panel1,BorderLayout.NORTH);
-        edit_slang.add(Box.createRigidArea(new Dimension(0,30)));
-
+        delete_slang.add(panel1,BorderLayout.NORTH);
+        delete_slang.add(Box.createRigidArea(new Dimension(0,30)));
 
         panel2=new JPanel();
         panel2.setBackground(new Color(103,104,171));
         BoxLayout box=new BoxLayout(panel2,BoxLayout.Y_AXIS);
         panel2.setLayout(box);
-        Check.setActionCommand("check");
-        Check.setFont(new Font("Serif", Font.PLAIN,18));
-        Check.addActionListener(this);
         Check.setBackground(new Color(171,136,103));
+        Check.setFont(new Font("Serif", Font.PLAIN,18));
+        Check.setActionCommand("check");
+        Check.addActionListener(this);
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
         mean_text=new JLabel("Mean");
         mean=new JTextField("");
         panel_mean=new JPanel();
+        panel_mean.setBackground(new Color(103,104,171));
         BoxLayout box_mean=new BoxLayout(panel_mean,BoxLayout.LINE_AXIS);
         panel_mean.setLayout(box_mean);
         panel_slang=new JPanel();
+        panel_slang.setBackground(new Color(103,104,171));
         BoxLayout box_slang=new BoxLayout(panel_slang,BoxLayout.LINE_AXIS);
         panel_slang.setLayout(box_slang);
 
@@ -68,13 +70,12 @@ public class Edit_UI implements ActionListener {
         mean_text.setFont(new Font("Serif", Font.PLAIN, 20));
         mean.disable();
         panel_mean.add(Box.createRigidArea(new Dimension(20,0)));
+        panel_mean.setBackground(new Color(103,104,171));
         panel_mean.add(mean_text);
         panel_mean.add(Box.createRigidArea(new Dimension(30,30)));
         panel_mean.add(mean);
         panel_mean.add(Box.createRigidArea(Check.getMaximumSize()));
-        panel_mean.setBackground(new Color(103,104,171));
 
-        panel_slang.setBackground(new Color(103,104,171));
         panel_slang.add(slang_text);
         panel_slang.add(Box.createRigidArea(new Dimension(0,30)));
         panel_slang.add(slang);
@@ -82,38 +83,39 @@ public class Edit_UI implements ActionListener {
 
         panel2.add(panel_slang,BorderLayout.NORTH);
         panel2.add(panel_mean,BorderLayout.SOUTH);
-        edit_slang.add(panel2,BorderLayout.CENTER);
+        delete_slang.add(panel2,BorderLayout.CENTER);
 
-        edit_slang.add(Box.createRigidArea(new Dimension(0,30)));
+        delete_slang.add(Box.createRigidArea(new Dimension(0,30)));
         panel3=new JPanel();
+        panel3.setBackground(new Color(103,104,171));
         BoxLayout box_3=new BoxLayout(panel3,BoxLayout.X_AXIS);
         panel3.setLayout(box_3);
-        panel3.setBackground(new Color(103,104,171));
         Ok_button=new JButton("OK");
         Ok_button.setActionCommand("ok");
         Ok_button.setFont(new Font("Serif", Font.PLAIN,20));
-        Ok_button.addActionListener(this);
         Ok_button.setBackground(new Color(171,136,103));
+        Ok_button.addActionListener(this);
         Cancel_button=new JButton("Cancel");
-        Cancel_button.setBackground(new Color(171,136,103));
-        Cancel_button.setFont(new Font("Serif", Font.PLAIN,20));
         Cancel_button.setActionCommand("cancel");
+        Cancel_button.setBackground(new Color(171,136,103));
         Cancel_button.addActionListener(this);
+        Cancel_button.setFont(new Font("Serif", Font.PLAIN,20));
         Ok_button.setMaximumSize(new Dimension(100,100));
+        Ok_button.setEnabled(false);
         Cancel_button.setMaximumSize(new Dimension(100,100));
         panel3.add(Ok_button);
         panel3.add((Box.createRigidArea(new Dimension(10,0))));
         panel3.add(Cancel_button);
         panel3.setAlignmentX(Component.CENTER_ALIGNMENT);
-        edit_slang.add(panel3,BorderLayout.SOUTH);
-        edit_slang.add(Box.createRigidArea(new Dimension(0,500)));
+        delete_slang.add(panel3,BorderLayout.SOUTH);
+        delete_slang.add(Box.createRigidArea(new Dimension(0,500)));
 
-        edit_slang.setTitle("Add Slang Words");
-        edit_slang.setDefaultCloseOperation(edit_slang.DISPOSE_ON_CLOSE);
-        edit_slang.resize(600, 400);
-        edit_slang.setResizable(false);
-        edit_slang.setLocationRelativeTo(null);
-        edit_slang.setVisible(true);
+        delete_slang.setTitle("Add Slang Words");
+        delete_slang.setDefaultCloseOperation(delete_slang.DISPOSE_ON_CLOSE);
+        delete_slang.resize(600, 400);
+        delete_slang.setResizable(false);
+        delete_slang.setLocationRelativeTo(null);
+        delete_slang.setVisible(true);
     }
     public void set_empty(){
         slang.setText("");
@@ -124,11 +126,9 @@ public class Edit_UI implements ActionListener {
         mean.setText("");
     }
     public static void main(String[] args) {
-        Edit_UI a=new Edit_UI();
-        a.edit_ui();
+        Delete_UI de=new Delete_UI();
+        de.delete_ui();
     }
-
-    @Override
     public void actionPerformed(ActionEvent e) {
         String command=e.getActionCommand();
         String temp=slang.getText();
@@ -140,13 +140,16 @@ public class Edit_UI implements ActionListener {
                     for (int i = 0; i < Value.length; i++) {
                         if (Value[i][0].toLowerCase().equals(temp.toLowerCase())) {
                             k = true;
-                            mean.enable();
+                            mean.disable();
                             mean.setText(Value[i][1].replace("[","").replace("]",""));
+                            Ok_button.enable();
+                            Ok_button.setEnabled(true);
+                            JOptionPane.showMessageDialog(null, "Slang Word exist!", "Exist", JOptionPane.INFORMATION_MESSAGE);
                             break;
                         }
                     }
                     if (k == false) {
-                        JOptionPane.showMessageDialog(null, "Slang Word does not exist!", "Empty", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Slang Word does not exist!", "Not Exist", JOptionPane.INFORMATION_MESSAGE);
                         set();
                     }
                 } catch (IOException ex) {
@@ -154,10 +157,13 @@ public class Edit_UI implements ActionListener {
                     JOptionPane.showMessageDialog(null, "Error!", "Error Add", JOptionPane.INFORMATION_MESSAGE);
                 }
             }
+            else{
+                JOptionPane.showMessageDialog(null, "Please enter slang word!", "slang word empty", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
         if(command=="ok"){
             try {
-                dict.Writefile_data(temp, mean.getText(), 3);
+                dict.Writefile_data(temp, mean.getText(), 4);
                 JOptionPane.showMessageDialog(null, "Success!", "Success", JOptionPane.INFORMATION_MESSAGE);
                 set_empty();
             } catch (IOException ex) {
@@ -165,9 +171,10 @@ public class Edit_UI implements ActionListener {
             }
         }
         if(command=="cancel"){
-            edit_slang.dispose();
+            delete_slang.dispose();
             Menu_UI menu_ui=new Menu_UI();
             menu_ui.menu_ui();
         }
     }
+
 }

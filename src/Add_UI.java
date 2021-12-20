@@ -35,14 +35,17 @@ public class Add_UI  implements ActionListener {
         JLabel text=new JLabel("     Slang word is available in the dictionary!!!");
         text.setFont(new Font("Serif", Font.PLAIN, 15));
         confirm.add(text,BorderLayout.NORTH);
+        confirm.getContentPane().setBackground(new Color(103,104,171));
 
         JPanel panel=new JPanel();
         BoxLayout bo=new BoxLayout(panel,BoxLayout.X_AXIS);
         panel.setLayout(bo);
         Overwrite.setActionCommand("overwrite");
         Overwrite.addActionListener(this);
+        Overwrite.setBackground(new Color(171,136,103));
         duplicate.setActionCommand("duplicate");
         duplicate.addActionListener(this);
+        duplicate.setBackground(new Color(171,136,103));
 
         duplicate.setMaximumSize(new Dimension(100,20));
         Overwrite.setMaximumSize(new Dimension(100,20));
@@ -52,7 +55,7 @@ public class Add_UI  implements ActionListener {
         panel.add(Box.createRigidArea(new Dimension(20,0)));
         panel.add(duplicate);
         panel.setAlignmentX(Component.CENTER_ALIGNMENT);
-
+        panel.setBackground(new Color(103,104,171));
         confirm.add(panel,BorderLayout.CENTER);
 
         confirm.setTitle("Confirm");
@@ -65,9 +68,12 @@ public class Add_UI  implements ActionListener {
     public void add_ui(){
         BoxLayout boxx=new BoxLayout(add_slang.getContentPane(),BoxLayout.Y_AXIS);
         add_slang.setLayout(boxx);
+        add_slang.getContentPane().setBackground(new Color(103,104,171));
+
         text=new JLabel("Add Slang Word");
         text.setFont(new Font("Serif", Font.PLAIN, 70));
         panel1=new JPanel();
+        panel1.setBackground(new Color(103,104,171));
         panel1.add(text, BorderLayout.CENTER);
         add_slang.add(panel1,BorderLayout.NORTH);
         add_slang.add(Box.createRigidArea(new Dimension(0,30)));
@@ -82,9 +88,12 @@ public class Add_UI  implements ActionListener {
         panel_mean=new JPanel();
         BoxLayout box_mean=new BoxLayout(panel_mean,BoxLayout.LINE_AXIS);
         panel_mean.setLayout(box_mean);
+        panel_mean.setBackground(new Color(103,104,171));
+
         panel_slang=new JPanel();
         BoxLayout box_slang=new BoxLayout(panel_slang,BoxLayout.LINE_AXIS);
         panel_slang.setLayout(box_slang);
+        panel_slang.setBackground(new Color(103,104,171));
 
         slang_text.setFont(new Font("Serif", Font.PLAIN, 20));
         slang.setMaximumSize(new Dimension(500,1000));
@@ -109,14 +118,23 @@ public class Add_UI  implements ActionListener {
         panel3=new JPanel();
         BoxLayout box_3=new BoxLayout(panel3,BoxLayout.X_AXIS);
         panel3.setLayout(box_3);
+        panel3.setBackground(new Color(103,104,171));
+
         Ok_button=new JButton("OK");
+        Ok_button.setBackground(new Color(171,136,103));
         Ok_button.setActionCommand("ok");
         Ok_button.addActionListener(this);
+        Ok_button.setFont(new Font("Serif", Font.PLAIN, 20));
+
         Cancel_button=new JButton("Cancel");
         Cancel_button.setActionCommand("cancel");
+        Cancel_button.setBackground(new Color(171,136,103));
         Cancel_button.addActionListener(this);
+        Cancel_button.setFont(new Font("Serif", Font.PLAIN, 20));
+
         Ok_button.setMaximumSize(new Dimension(100,100));
         Cancel_button.setMaximumSize(new Dimension(100,100));
+
         panel3.add(Ok_button);
         panel3.add((Box.createRigidArea(new Dimension(10,0))));
         panel3.add(Cancel_button);
@@ -155,6 +173,7 @@ public class Add_UI  implements ActionListener {
             try {
                 dict.Writefile_data(temp, temp1, 1);
                 JOptionPane.showMessageDialog(null, "Success Overwrite!", "Success Overwrite", JOptionPane.INFORMATION_MESSAGE);
+                add_slang.revalidate();
                 confirm.dispose();
                 set();
             }
@@ -166,6 +185,7 @@ public class Add_UI  implements ActionListener {
             try {
                 dict.Writefile_data(temp, temp1, 2);
                 JOptionPane.showMessageDialog(null, "Success Duplicate!", "Success Duplicate", JOptionPane.INFORMATION_MESSAGE);
+                add_slang.revalidate();
                 confirm.dispose();
                 set();
             }
@@ -198,6 +218,8 @@ public class Add_UI  implements ActionListener {
         }
         if(command=="cancel"){
             add_slang.dispose();
+            Menu_UI menu_ui=new Menu_UI();
+            menu_ui.menu_ui();
         }
 
     }
