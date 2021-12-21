@@ -80,9 +80,7 @@ public class random_slang_ui implements ActionListener {
 
 
         panel_center=new JPanel(new GridLayout(2, 2, 30, 35));
-
         panel_center.setBackground(new Color(103,104,171));
-
         answer_1=new JButton("ans1");
         answer_1.setActionCommand("answer1");
         answer_1.addActionListener(this);
@@ -114,7 +112,11 @@ public class random_slang_ui implements ActionListener {
 
         panel_end.setLayout(box_end);
         finish=new JButton("Finish");
+        finish.setActionCommand("finish");
+        finish.addActionListener(this);
         next=new JButton("Next");
+        next.setActionCommand("next");
+        next.addActionListener(this);
         finish.setBackground(new Color(171,136,103));
         next.setBackground(new Color(171,136,103));
         finish.setFont(new Font("Serif", Font.PLAIN, 30));
@@ -162,6 +164,7 @@ public class random_slang_ui implements ActionListener {
         answer_2.setFont(new Font("Serif", Font.PLAIN, 20));
         answer_3.setFont(new Font("Serif", Font.PLAIN, 20));
         answer_4.setFont(new Font("Serif", Font.PLAIN, 20));
+        next.setEnabled(false);
 
     }
 
@@ -169,15 +172,8 @@ public class random_slang_ui implements ActionListener {
         random_slang_ui a= new random_slang_ui();
         a.Random_Slang_UI();
     }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        String command=e.getActionCommand();
+    public void sete(){
         String ques=question.getText();
-        /*answer_1.disable();
-        answer_2.disable();
-        answer_3.disable();
-        answer_4.disable();*/
         answer_1.setEnabled(false);
         answer_2.setEnabled(false);
         answer_3.setEnabled(false);
@@ -194,51 +190,64 @@ public class random_slang_ui implements ActionListener {
                 Ans[i].setBackground(Color.red);
             }
         }
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        String command=e.getActionCommand();
+        /*String ques=question.getText();
+        answer_1.setEnabled(false);
+        answer_2.setEnabled(false);
+        answer_3.setEnabled(false);
+        answer_4.setEnabled(false);
+        JButton[]Ans={answer_1,answer_2,answer_3,answer_4};
+        boolean flag=false;
+        int temp=-1;
+        for(int i=0;i<Ans.length;i++){
+            if(Ans[i].getText().equals(ans.replace("[","").replace("]",""))){
+                Ans[i].setBackground(Color.green);
+                temp=i;
+            }
+            else{
+                Ans[i].setBackground(Color.red);
+            }
+        }*/
         if(command=="back"){
             frame_ran_slang.dispose();
         }
         if(command=="answer1"){
-            /*if(ans.replace("[","").replace("]","").equals(answer_1.getText())){
-                answer_1.setBackground(Color.green);
-                answer_2.setBackground(Color.red);
-                answer_3.setBackground(Color.red);
-                answer_4.setBackground(Color.red);
-            }
-            else{
-                answer_1.setBackground(Color.red);
-            }*/
+            sete();
+            next.setEnabled(true);
         }
         if(command=="answer2"){
-            /*if(ans.replace("[","").replace("]","").equals(answer_2.getText())){
-                answer_2.setBackground(Color.green);
-                answer_1.setBackground(Color.red);
-                answer_3.setBackground(Color.red);
-                answer_4.setBackground(Color.red);
-            }
-            else{
-                answer_2.setBackground(Color.red);
-            }*/
+            sete();
+            next.setEnabled(true);
         }
         if(command=="answer3"){
-           /* if(ans.replace("[","").replace("]","").equals(answer_3.getText())){
-                answer_3.setBackground(Color.green);
-                answer_2.setBackground(Color.red);
-                answer_1.setBackground(Color.red);
-                answer_4.setBackground(Color.red);
-            }
-            else{
-                answer_3.setBackground(Color.red);
-            }*/
+            sete();
+            next.setEnabled(true);
         }
         if(command=="answer4") {
-           /* if (ans.replace("[","").replace("]","").equals(answer_4.getText())) {
-                answer_4.setBackground(Color.green);
-                answer_2.setBackground(Color.red);
-                answer_3.setBackground(Color.red);
-                answer_1.setBackground(Color.red);
-            } else {
-                answer_4.setBackground(Color.red);
-            }*/
+            sete();
+            next.setEnabled(true);
+        }
+        if(command=="finish"){
+
+        }
+        if(command=="next"){
+/*            frame_ran_slang.dispose();*/
+            try {
+                setrandom();
+                answer_1.setEnabled(true);
+                answer_2.setEnabled(true);
+                answer_3.setEnabled(true);
+                answer_4.setEnabled(true);
+                answer_1.setBackground(new Color(171,136,103));
+                answer_2.setBackground(new Color(171,136,103));
+                answer_3.setBackground(new Color(171,136,103));
+                answer_4.setBackground(new Color(171,136,103));
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
     }
 }
