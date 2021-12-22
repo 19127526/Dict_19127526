@@ -274,7 +274,8 @@ public class Menu_UI extends JFrame implements ActionListener {
         }
 
         if(command=="randomdefini"){
-
+            random_meaning_ui ranmeaning=new random_meaning_ui();
+            ranmeaning.Random_Meaning_UI();
         }
 
         if(command=="randomslang"){

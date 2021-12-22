@@ -11,11 +11,11 @@ import java.util.Random;
 /**
  * PACKAGE_NAME
  * Created by Admin
- * Date 12/20/2021 - 6:27 PM
+ * Date 12/22/2021 - 11:59 PM
  * Description: ...
  */
-public class random_slang_ui implements ActionListener {
-    private JFrame frame_ran_slang=new JFrame();
+public class random_meaning_ui implements ActionListener {
+    private JFrame frame_ran_meaning =new JFrame();
     private JButton button;
     private JButton back;
     private JLabel question;
@@ -36,9 +36,9 @@ public class random_slang_ui implements ActionListener {
     private String ans=new String();
     private int tr=0;
     private int fa=0;
-    public void Random_Slang_UI(){
-        BoxLayout box=new BoxLayout(frame_ran_slang.getContentPane(),BoxLayout.Y_AXIS);
-        frame_ran_slang.setLayout(box);
+    public void Random_Meaning_UI(){
+        BoxLayout box=new BoxLayout(frame_ran_meaning.getContentPane(),BoxLayout.Y_AXIS);
+        frame_ran_meaning.setLayout(box);
         JPanel dung_sai=new JPanel();
 
         dung_sai.setBackground(new Color(103,104,171));
@@ -67,18 +67,18 @@ public class random_slang_ui implements ActionListener {
         panel_head1.add(dung_sai,BorderLayout.EAST);
         panel_head1.add(Box.createRigidArea(new Dimension(45,0)));
         panel_head1.setBackground(new Color(103,104,171));
-        frame_ran_slang.add(panel_head1/*,BorderLayout.NORTH*/);
-        frame_ran_slang.add(Box.createRigidArea(new Dimension(0,10)));
+        frame_ran_meaning.add(panel_head1/*,BorderLayout.NORTH*/);
+        frame_ran_meaning.add(Box.createRigidArea(new Dimension(0,10)));
 
         panel_head=new JPanel();
 
         panel_head.setBackground(new Color(103,104,171));
 
         question=new JLabel("text");
-        question.setFont(new Font("Serif", Font.PLAIN, 70));
+        question.setFont(new Font("Serif", Font.PLAIN, 35));
         panel_head.add(question,BorderLayout.CENTER);
-        frame_ran_slang.add(panel_head);
-        frame_ran_slang.add(Box.createRigidArea(new Dimension(0,30)));
+        frame_ran_meaning.add(panel_head);
+        frame_ran_meaning.add(Box.createRigidArea(new Dimension(0,30)));
 
 
         panel_center=new JPanel(new GridLayout(2, 2, 30, 35));
@@ -104,8 +104,8 @@ public class random_slang_ui implements ActionListener {
         panel_center.add(answer_2);
         panel_center.add(answer_3);
         panel_center.add(answer_4);
-        frame_ran_slang.add(panel_center,BorderLayout.CENTER);
-        frame_ran_slang.add(Box.createRigidArea(new Dimension(0,30)));
+        frame_ran_meaning.add(panel_center,BorderLayout.CENTER);
+        frame_ran_meaning.add(Box.createRigidArea(new Dimension(0,30)));
 
         panel_end=new JPanel();
         BoxLayout box_end=new BoxLayout(panel_end,BoxLayout.LINE_AXIS);
@@ -129,35 +129,43 @@ public class random_slang_ui implements ActionListener {
         panel_end.add(finish);
         panel_end.add(Box.createRigidArea(new Dimension(250,0)));
         panel_end.add(next);
-        frame_ran_slang.add(panel_end,BorderLayout.SOUTH);
+        frame_ran_meaning.add(panel_end,BorderLayout.SOUTH);
 
         try {
             setrandom();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        frame_ran_slang.setTitle("Add Slang Words");
-        frame_ran_slang.getContentPane().setBackground(new Color(103,104,171));
-        frame_ran_slang.setDefaultCloseOperation(frame_ran_slang.DISPOSE_ON_CLOSE);
-        frame_ran_slang.resize(800, 500);
-        frame_ran_slang.setResizable(false);
-        frame_ran_slang.setLocationRelativeTo(null);
-        frame_ran_slang.setVisible(true);
+        frame_ran_meaning.setTitle("Add Slang Words");
+        frame_ran_meaning.getContentPane().setBackground(new Color(103,104,171));
+        frame_ran_meaning.setDefaultCloseOperation(frame_ran_meaning.DISPOSE_ON_CLOSE);
+        frame_ran_meaning.resize(800, 500);
+        frame_ran_meaning.setResizable(false);
+        frame_ran_meaning.setLocationRelativeTo(null);
+        frame_ran_meaning.setVisible(true);
     }
     public void setrandom() throws IOException {
         Value=dict.readfile();
-        ArrayList<String>random=new ArrayList<>();
+        ArrayList<String> random=new ArrayList<>();
         Random rand=new Random();
         String[] currentRoom_ans=Value[rand.nextInt(Value.length)];
-        random.add(currentRoom_ans[1]);
+        random.add(currentRoom_ans[0]);
         String[] currentRoom1=Value[rand.nextInt(Value.length)];
-        random.add(currentRoom1[1]);
+        random.add(currentRoom1[0]);
         String[] currentRoom2=Value[rand.nextInt(Value.length)];
-        random.add(currentRoom2[1]);
+        random.add(currentRoom2[0]);
         String[] currentRoom3=Value[rand.nextInt(Value.length)];
-        random.add(currentRoom3[1]);
-        question.setText(currentRoom_ans[0]);
-        ans=currentRoom_ans[1];
+        random.add(currentRoom3[0]);
+        
+        String temp=currentRoom_ans[1].replace("[","").replace("]","");
+        System.out.println(temp);
+        String[]tmp=temp.split("\\|");
+        Collections.shuffle(List.of(tmp));
+        System.out.println(tmp[0]);
+        question.setText(tmp[0]);
+
+
+        ans=currentRoom_ans[0];
         Collections.shuffle(random);
         answer_1.setText(random.get(0).replace("[","").replace("]",""));
         answer_2.setText(random.get(1).replace("[","").replace("]",""));
@@ -172,8 +180,8 @@ public class random_slang_ui implements ActionListener {
     }
 
     public static void main(String[] args) {
-        random_slang_ui a= new random_slang_ui();
-        a.Random_Slang_UI();
+        random_meaning_ui a= new random_meaning_ui();
+        a.Random_Meaning_UI();
     }
     public void set(){
         String ques=question.getText();
@@ -198,7 +206,7 @@ public class random_slang_ui implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String command=e.getActionCommand();
         if(command=="back"){
-            frame_ran_slang.dispose();
+            frame_ran_meaning.dispose();
         }
         if(command=="answer1"){
             set();
@@ -250,10 +258,10 @@ public class random_slang_ui implements ActionListener {
         }
         if(command=="finish"){
             JOptionPane.showMessageDialog(null, dung.getText()+"\n"+sai.getText(),"Finish", JOptionPane.INFORMATION_MESSAGE);
-            frame_ran_slang.dispose();
+            frame_ran_meaning.dispose();
         }
         if(command=="next"){
-/*            frame_ran_slang.dispose();*/
+            /*            frame_ran_slang.dispose();*/
             try {
                 setrandom();
                 answer_1.setEnabled(true);

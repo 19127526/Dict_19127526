@@ -171,7 +171,7 @@ public class Add_UI  implements ActionListener {
         String temp1=mean.getText();
         if(command=="overwrite") {
             try {
-                dict.Writefile_data(temp, temp1, 1);
+                dict.Writefile_data(temp, temp1, 2);
                 JOptionPane.showMessageDialog(null, "Success Overwrite!", "Success Overwrite", JOptionPane.INFORMATION_MESSAGE);
                 add_slang.revalidate();
                 confirm.dispose();
@@ -183,7 +183,7 @@ public class Add_UI  implements ActionListener {
         }
         if(command=="duplicate"){
             try {
-                dict.Writefile_data(temp, temp1, 2);
+                dict.Writefile_data(temp, temp1, 1);
                 JOptionPane.showMessageDialog(null, "Success Duplicate!", "Success Duplicate", JOptionPane.INFORMATION_MESSAGE);
                 add_slang.revalidate();
                 confirm.dispose();
