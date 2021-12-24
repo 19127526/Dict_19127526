@@ -156,7 +156,7 @@ public class random_meaning_ui implements ActionListener {
         random.add(currentRoom2[0]);
         String[] currentRoom3=Value[rand.nextInt(Value.length)];
         random.add(currentRoom3[0]);
-        
+
         String temp=currentRoom_ans[1].replace("[","").replace("]","");
         System.out.println(temp);
         String[]tmp=temp.split("\\|");
