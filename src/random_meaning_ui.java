@@ -150,18 +150,24 @@ public class random_meaning_ui implements ActionListener {
         Random rand=new Random();
         String[] currentRoom_ans=Value[rand.nextInt(Value.length)];
         random.add(currentRoom_ans[0]);
-        String[] currentRoom1=Value[rand.nextInt(Value.length)];
+        String[] currentRoom1 =null;
+        String[] currentRoom2=null;
+        String[] currentRoom3=null;
+        do {
+            currentRoom1 = Value[rand.nextInt(Value.length)];
+            currentRoom2 = Value[rand.nextInt(Value.length)];
+            currentRoom3 = Value[rand.nextInt(Value.length)];
+            if((currentRoom_ans.equals(currentRoom1)==false)&&(currentRoom_ans.equals(currentRoom2)==false)&&(currentRoom_ans.equals(currentRoom3)==false)
+            &&(currentRoom1.equals(currentRoom2)==false)&&(currentRoom3.equals(currentRoom2)==false)){
+                break;
+            }
+        }while(true);
         random.add(currentRoom1[0]);
-        String[] currentRoom2=Value[rand.nextInt(Value.length)];
         random.add(currentRoom2[0]);
-        String[] currentRoom3=Value[rand.nextInt(Value.length)];
         random.add(currentRoom3[0]);
-
         String temp=currentRoom_ans[1].replace("[","").replace("]","");
-        System.out.println(temp);
         String[]tmp=temp.split("\\|");
         Collections.shuffle(List.of(tmp));
-        System.out.println(tmp[0]);
         question.setText(tmp[0]);
 
 
