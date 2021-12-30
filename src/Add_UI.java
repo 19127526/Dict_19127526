@@ -91,10 +91,12 @@ public class Add_UI  implements ActionListener {
 
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
+        slang.setBackground(new Color(103,104,171));
         slang.setBorder(new LineBorder(Color.black,2));
 
         mean_text=new JLabel("Mean");
         mean=new JTextField("");
+        mean.setBackground(new Color(103,104,171));
         mean.setBorder(new LineBorder(Color.black,2));
 
         panel_mean=new JPanel();

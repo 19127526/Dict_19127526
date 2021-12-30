@@ -50,15 +50,18 @@ public class Edit_UI implements ActionListener {
         Check.setBorder(new LineBorder(new Color(255, 221, 189),2));
         Check.setFont(new Font("Serif", Font.PLAIN,18));
         Check.addActionListener(this);
+        Check.setMaximumSize(new Dimension(80,50));
         Check.setBackground(new Color(171,136,103));
 
 
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
+        slang.setBackground(new Color(103,104,171));
         slang.setBorder(new LineBorder(Color.black,2));
 
         mean_text=new JLabel("Mean");
-        mean=new JTextField("");
+        mean=new JTextField(" Please enter slang");
+        mean.setBackground(new Color(103,104,171));
         mean.setBorder(new LineBorder(Color.black,2));
 
         panel_mean=new JPanel();
@@ -80,7 +83,7 @@ public class Edit_UI implements ActionListener {
         panel_mean.add(mean_text);
         panel_mean.add(Box.createRigidArea(new Dimension(30,30)));
         panel_mean.add(mean);
-        panel_mean.add(Box.createRigidArea(Check.getMaximumSize()));
+        panel_mean.add(Box.createRigidArea(new Dimension(Check.getMaximumSize().width,0)));
         panel_mean.setBackground(new Color(103,104,171));
 
         panel_slang.setBackground(new Color(103,104,171));
@@ -89,8 +92,9 @@ public class Edit_UI implements ActionListener {
         panel_slang.add(slang);
         panel_slang.add(Check);
 
-        panel2.add(panel_slang,BorderLayout.NORTH);
-        panel2.add(panel_mean,BorderLayout.SOUTH);
+        panel2.add(panel_slang);
+        panel2.add(Box.createRigidArea(new Dimension(0,15)));
+        panel2.add(panel_mean);
         edit_slang.add(panel2,BorderLayout.CENTER);
 
         edit_slang.add(Box.createRigidArea(new Dimension(0,30)));
@@ -129,9 +133,9 @@ public class Edit_UI implements ActionListener {
         edit_slang.add(panel3,BorderLayout.SOUTH);
         edit_slang.add(Box.createRigidArea(new Dimension(0,500)));
 
-        edit_slang.setTitle("Add Slang Words");
+        edit_slang.setTitle("Edit Slang Words");
         edit_slang.setDefaultCloseOperation(edit_slang.DISPOSE_ON_CLOSE);
-        edit_slang.resize(600, 400);
+        edit_slang.resize(700, 400);
         edit_slang.setResizable(false);
         edit_slang.setLocationRelativeTo(null);
         edit_slang.setVisible(true);

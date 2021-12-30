@@ -83,6 +83,8 @@ public class Menu_UI extends JFrame implements ActionListener {
             table1.getTableHeader().setBackground(new Color(103,104,171));
             table1.getTableHeader().setBorder(new LineBorder(Color.black,2));
 
+            //table1.getRootPane().setBorder(new LineBorder(Color.black,2));
+
             scrollPane = new JScrollPane(table1);
             scrollPane.setBackground(new Color(103,104,171));
             scrollPane.setBorder(BorderFactory.createLineBorder(new Color(103,104,171),3));
@@ -213,7 +215,7 @@ public class Menu_UI extends JFrame implements ActionListener {
                                                                text1.add(text);
                                                                select_game.add(text1,BorderLayout.NORTH);
                                                                select_game.getContentPane().setBackground(new Color(103,104,171));
-                                                               
+
 
 
                                                                JPanel panel=new JPanel();
@@ -306,6 +308,7 @@ public class Menu_UI extends JFrame implements ActionListener {
                     k=true;
                     Object []Temp=new Object[]{Value[i][0],Value[i][1].replace("[","").replace("]","")};
                     mode.addRow(Temp);
+
                     System.out.println(Value[i][0]);
                     try {
                         dict.Writefile_History(Temp);
