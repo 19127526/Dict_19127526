@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,8 +33,8 @@ public class Add_UI  implements ActionListener {
     private Dict dict=new Dict();
 
     public void confirm(){
-        JLabel text=new JLabel("     Slang word is available in the dictionary!!!");
-        text.setFont(new Font("Serif", Font.PLAIN, 15));
+        JLabel text=new JLabel("<html><pre> Slang word is available in the  <br>          dictionary!!!</pre></html>");
+        text.setFont(new Font("Serif", Font.PLAIN, 20));
         confirm.add(text,BorderLayout.NORTH);
         confirm.getContentPane().setBackground(new Color(103,104,171));
 
@@ -43,14 +44,19 @@ public class Add_UI  implements ActionListener {
         Overwrite.setActionCommand("overwrite");
         Overwrite.addActionListener(this);
         Overwrite.setBackground(new Color(171,136,103));
+        Overwrite.setBorder(new LineBorder(new Color(255, 221, 189),2));
+
+
         duplicate.setActionCommand("duplicate");
         duplicate.addActionListener(this);
         duplicate.setBackground(new Color(171,136,103));
+        duplicate.setBorder(new LineBorder(new Color(255, 221, 189),2));
 
-        duplicate.setMaximumSize(new Dimension(100,20));
-        Overwrite.setMaximumSize(new Dimension(100,20));
 
-        panel.add(Box.createRigidArea(new Dimension(30,0)));
+        duplicate.setMaximumSize(new Dimension(100,35));
+        Overwrite.setMaximumSize(new Dimension(100,35));
+
+        panel.add(Box.createRigidArea(new Dimension(88,0)));
         panel.add(Overwrite);
         panel.add(Box.createRigidArea(new Dimension(20,0)));
         panel.add(duplicate);
@@ -60,7 +66,7 @@ public class Add_UI  implements ActionListener {
 
         confirm.setTitle("Confirm");
         confirm.setDefaultCloseOperation(confirm.DISPOSE_ON_CLOSE);
-        confirm.resize(300, 100);
+        confirm.resize(400, 200);
         confirm.setResizable(false);
         confirm.setLocationRelativeTo(null);
         confirm.setVisible(true);
@@ -81,10 +87,16 @@ public class Add_UI  implements ActionListener {
         panel2=new JPanel();
         BoxLayout box=new BoxLayout(panel2,BoxLayout.Y_AXIS);
         panel2.setLayout(box);
+        panel2.setBackground(new Color(103,104,171));
+
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
+        slang.setBorder(new LineBorder(Color.black,2));
+
         mean_text=new JLabel("Mean");
         mean=new JTextField("");
+        mean.setBorder(new LineBorder(Color.black,2));
+
         panel_mean=new JPanel();
         BoxLayout box_mean=new BoxLayout(panel_mean,BoxLayout.LINE_AXIS);
         panel_mean.setLayout(box_mean);
@@ -110,11 +122,14 @@ public class Add_UI  implements ActionListener {
         panel_slang.add(Box.createRigidArea(new Dimension(0,30)));
         panel_slang.add(slang);
 
-        panel2.add(panel_slang,BorderLayout.NORTH);
-        panel2.add(panel_mean,BorderLayout.SOUTH);
-        add_slang.add(panel2,BorderLayout.CENTER);
+        panel2.add(panel_slang);
+        panel2.add(Box.createRigidArea(new Dimension(0,15)));
+        panel2.add(panel_mean);
 
+
+        add_slang.add(panel2,BorderLayout.CENTER);
         add_slang.add(Box.createRigidArea(new Dimension(0,30)));
+
         panel3=new JPanel();
         BoxLayout box_3=new BoxLayout(panel3,BoxLayout.X_AXIS);
         panel3.setLayout(box_3);
@@ -125,12 +140,14 @@ public class Add_UI  implements ActionListener {
         Ok_button.setActionCommand("ok");
         Ok_button.addActionListener(this);
         Ok_button.setFont(new Font("Serif", Font.PLAIN, 20));
+        Ok_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
 
         Cancel_button=new JButton("Cancel");
         Cancel_button.setActionCommand("cancel");
         Cancel_button.setBackground(new Color(171,136,103));
         Cancel_button.addActionListener(this);
         Cancel_button.setFont(new Font("Serif", Font.PLAIN, 20));
+        Cancel_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
 
         Ok_button.setMaximumSize(new Dimension(100,100));
         Cancel_button.setMaximumSize(new Dimension(100,100));

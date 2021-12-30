@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -34,12 +35,16 @@ public class History_UI extends JFrame implements ActionListener {
         panel1.setLayout(box);
         table1=new JTable(mode);
         table1.getTableHeader().setFont(new Font("Serif", Font.PLAIN,20));
+        table1.getTableHeader().setBorder(new LineBorder(Color.black,2));
+
         table1.setFont(new Font("Serif", Font.PLAIN,20));
         table1.setRowHeight(30);
         table1.getTableHeader().setBackground(new Color(103,104,171));
         table1.setDefaultEditor(Object.class, null);
         table1.setBackground(new Color(103,104,171));
         JScrollPane scrollPane = new JScrollPane(table1);
+        scrollPane.setBorder(BorderFactory.createLineBorder(new Color(103,104,171),3));
+        scrollPane.setBackground(new Color(103,104,171));
 
         back=new JButton("Back");
         back.setFont(new Font("Serif", Font.PLAIN,30));
@@ -48,6 +53,7 @@ public class History_UI extends JFrame implements ActionListener {
         back.setActionCommand("Back");
         back.setBackground(new Color(171,136,103));
         back.addActionListener(this);
+        back.setBorder(new LineBorder(new Color(255, 221, 189),2));
 
         panel1.setBackground(new Color(103,104,171));
         panel1.add(scrollPane,BorderLayout.CENTER);
@@ -56,7 +62,7 @@ public class History_UI extends JFrame implements ActionListener {
         add(panel1,BorderLayout.CENTER);
         setTitle("History");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        resize(600, 400);
+        resize(800, 800);
         setResizable(true);
         setLocationRelativeTo(null);
         setVisible(true);

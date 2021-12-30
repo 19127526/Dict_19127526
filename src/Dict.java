@@ -261,6 +261,9 @@ public class Dict {
                     }
                     String thisLine1=null;
                     br=new BufferedReader(new FileReader(NameFile_Execute));
+                    BufferedWriter bww = new BufferedWriter(new FileWriter(History));
+                    bww.write("");
+                    bww.close();
                     bw=new BufferedWriter(new FileWriter(NameFile));
                     while ((thisLine1 = br.readLine()) != null) {
                         bw.append(thisLine1);

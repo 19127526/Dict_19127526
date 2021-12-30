@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -48,10 +49,16 @@ public class Delete_UI implements ActionListener {
         Check.setFont(new Font("Serif", Font.PLAIN,18));
         Check.setActionCommand("check");
         Check.addActionListener(this);
+        Check.setBorder(new LineBorder(new Color(255, 221, 189),2));
+
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
+        slang.setBorder(new LineBorder(Color.black,2));
+
         mean_text=new JLabel("Mean");
         mean=new JTextField("");
+        mean.setBorder(new LineBorder(Color.black,2));
+
         panel_mean=new JPanel();
         panel_mean.setBackground(new Color(103,104,171));
         BoxLayout box_mean=new BoxLayout(panel_mean,BoxLayout.LINE_AXIS);
@@ -95,14 +102,20 @@ public class Delete_UI implements ActionListener {
         Ok_button.setFont(new Font("Serif", Font.PLAIN,20));
         Ok_button.setBackground(new Color(171,136,103));
         Ok_button.addActionListener(this);
+        Ok_button.setMaximumSize(new Dimension(100,100));
+        Ok_button.setEnabled(false);
+        Ok_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
+
+
         Cancel_button=new JButton("Cancel");
         Cancel_button.setActionCommand("cancel");
         Cancel_button.setBackground(new Color(171,136,103));
         Cancel_button.addActionListener(this);
         Cancel_button.setFont(new Font("Serif", Font.PLAIN,20));
-        Ok_button.setMaximumSize(new Dimension(100,100));
-        Ok_button.setEnabled(false);
         Cancel_button.setMaximumSize(new Dimension(100,100));
+        Cancel_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
+
+
         panel3.add(Ok_button);
         panel3.add((Box.createRigidArea(new Dimension(10,0))));
         panel3.add(Cancel_button);

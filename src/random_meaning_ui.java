@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -39,12 +40,13 @@ public class random_meaning_ui implements ActionListener {
     public void Random_Meaning_UI(){
         BoxLayout box=new BoxLayout(frame_ran_meaning.getContentPane(),BoxLayout.Y_AXIS);
         frame_ran_meaning.setLayout(box);
-        JPanel dung_sai=new JPanel();
 
+        JPanel dung_sai=new JPanel();
         dung_sai.setBackground(new Color(103,104,171));
 
         BoxLayout box_dungsai=new BoxLayout(dung_sai,BoxLayout.LINE_AXIS);
         dung_sai.setLayout(box_dungsai);
+
         dung=new JLabel("True: "+tr);
         dung.setFont(new Font("Serif", Font.PLAIN, 20));
         sai=new JLabel("False: "+fa);
@@ -53,10 +55,13 @@ public class random_meaning_ui implements ActionListener {
         dung_sai.add(Box.createRigidArea(new Dimension(10,0)));
         dung_sai.add(sai);
         dung_sai.setFont(new Font("Serif", Font.PLAIN, 20));
+
         panel_head1=new JPanel();
         BoxLayout box_head1=new BoxLayout(panel_head1,BoxLayout.X_AXIS);
         panel_head1.setLayout(box_head1);
         back=new JButton("Back");
+        back.setMaximumSize(new Dimension(90,40));
+        back.setBorder(new LineBorder(new Color(255, 221, 189),2));
         back.addActionListener(this);
         back.setActionCommand("back");
         back.setFont(new Font("Serif", Font.PLAIN, 20));
@@ -83,18 +88,27 @@ public class random_meaning_ui implements ActionListener {
 
         panel_center=new JPanel(new GridLayout(2, 2, 30, 35));
         panel_center.setBackground(new Color(103,104,171));
+
         answer_1=new JButton("ans1");
+        answer_1.setBorder(new LineBorder(new Color(255, 221, 189),2));
         answer_1.setActionCommand("answer1");
         answer_1.addActionListener(this);
+
         answer_2=new JButton("ans2");
+        answer_2.setBorder(new LineBorder(new Color(255, 221, 189),2));
         answer_2.setActionCommand("answer2");
         answer_2.addActionListener(this);
+
         answer_3=new JButton("ans3");
+        answer_3.setBorder(new LineBorder(new Color(255, 221, 189),2));
         answer_3.setActionCommand("answer3");
         answer_3.addActionListener(this);
+
         answer_4=new JButton("ans4");
+        answer_4.setBorder(new LineBorder(new Color(255, 221, 189),2));
         answer_4.setActionCommand("answer4");
         answer_4.addActionListener(this);
+
         answer_1.setBackground(new Color(171,136,103));
         answer_2.setBackground(new Color(171,136,103));
         answer_3.setBackground(new Color(171,136,103));
@@ -115,17 +129,24 @@ public class random_meaning_ui implements ActionListener {
         panel_end.setLayout(box_end);
         finish=new JButton("Finish");
         finish.setActionCommand("finish");
+        finish.setBorder(new LineBorder(new Color(255, 221, 189),2));
         finish.addActionListener(this);
+
         next=new JButton("Next");
+        next.setBorder(new LineBorder(new Color(255, 221, 189),2));
         next.setActionCommand("next");
         next.addActionListener(this);
         finish.setBackground(new Color(171,136,103));
         next.setBackground(new Color(171,136,103));
         finish.setFont(new Font("Serif", Font.PLAIN, 30));
+        finish.setMaximumSize(new Dimension(100,40));
+
         next.setFont(new Font("Serif", Font.PLAIN, 20));
-        next.setFont(new Font("Aria",Font.BOLD,20));
+        next.setMaximumSize(new Dimension(90,40));
         finish.setAlignmentX(Component.CENTER_ALIGNMENT);
-        panel_end.add(Box.createRigidArea(new Dimension(350,0)));
+
+        finish.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel_end.add(Box.createRigidArea(new Dimension(340,0)));
         panel_end.add(finish);
         panel_end.add(Box.createRigidArea(new Dimension(250,0)));
         panel_end.add(next);
@@ -213,6 +234,8 @@ public class random_meaning_ui implements ActionListener {
         String command=e.getActionCommand();
         if(command=="back"){
             frame_ran_meaning.dispose();
+            Menu_UI a=new Menu_UI();
+            a.menu_ui();
         }
         if(command=="answer1"){
             set();
@@ -265,6 +288,8 @@ public class random_meaning_ui implements ActionListener {
         if(command=="finish"){
             JOptionPane.showMessageDialog(null, dung.getText()+"\n"+sai.getText(),"Finish", JOptionPane.INFORMATION_MESSAGE);
             frame_ran_meaning.dispose();
+            Menu_UI a=new Menu_UI();
+            a.menu_ui();
         }
         if(command=="next"){
             /*            frame_ran_slang.dispose();*/

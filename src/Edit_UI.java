@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -44,14 +45,22 @@ public class Edit_UI implements ActionListener {
         panel2.setBackground(new Color(103,104,171));
         BoxLayout box=new BoxLayout(panel2,BoxLayout.Y_AXIS);
         panel2.setLayout(box);
+
         Check.setActionCommand("check");
+        Check.setBorder(new LineBorder(new Color(255, 221, 189),2));
         Check.setFont(new Font("Serif", Font.PLAIN,18));
         Check.addActionListener(this);
         Check.setBackground(new Color(171,136,103));
+
+
         slang_text=new JLabel("Slang Word");
         slang=new JTextField("");
+        slang.setBorder(new LineBorder(Color.black,2));
+
         mean_text=new JLabel("Mean");
         mean=new JTextField("");
+        mean.setBorder(new LineBorder(Color.black,2));
+
         panel_mean=new JPanel();
         BoxLayout box_mean=new BoxLayout(panel_mean,BoxLayout.LINE_AXIS);
         panel_mean.setLayout(box_mean);
@@ -85,22 +94,34 @@ public class Edit_UI implements ActionListener {
         edit_slang.add(panel2,BorderLayout.CENTER);
 
         edit_slang.add(Box.createRigidArea(new Dimension(0,30)));
+
+
         panel3=new JPanel();
         BoxLayout box_3=new BoxLayout(panel3,BoxLayout.X_AXIS);
         panel3.setLayout(box_3);
         panel3.setBackground(new Color(103,104,171));
+
+
         Ok_button=new JButton("OK");
+        Ok_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
         Ok_button.setActionCommand("ok");
         Ok_button.setFont(new Font("Serif", Font.PLAIN,20));
         Ok_button.addActionListener(this);
         Ok_button.setBackground(new Color(171,136,103));
+
+
         Cancel_button=new JButton("Cancel");
+        Cancel_button.setBorder(new LineBorder(new Color(255, 221, 189),2));
         Cancel_button.setBackground(new Color(171,136,103));
         Cancel_button.setFont(new Font("Serif", Font.PLAIN,20));
         Cancel_button.setActionCommand("cancel");
         Cancel_button.addActionListener(this);
+
+
         Ok_button.setMaximumSize(new Dimension(100,100));
         Cancel_button.setMaximumSize(new Dimension(100,100));
+
+
         panel3.add(Ok_button);
         panel3.add((Box.createRigidArea(new Dimension(10,0))));
         panel3.add(Cancel_button);
