@@ -356,20 +356,10 @@ public class Menu_UI extends JFrame implements ActionListener {
         }
 
         if(command=="random"){
-            mode.getDataVector().removeAllElements();
-            Random rand=new Random();
-            String[] currentRoom=Value[rand.nextInt(Value.length)];
-            System.out.println(currentRoom.length);
-            currentRoom[1]=currentRoom[1].replace("[","").replace("]","");
-            mode.addRow(currentRoom);
-            try {
-                dict.Writefile_History(currentRoom);
-            }
-            catch (Exception ev){
-                ev.printStackTrace();
-            }
+           Random_UI a=new Random_UI();
+           a.random_ui();
+           this.dispose();
         }
-
         if(command=="add"){
             Add_UI add=new Add_UI();
             add.add_ui();
