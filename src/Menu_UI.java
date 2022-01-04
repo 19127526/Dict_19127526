@@ -271,10 +271,10 @@ public class Menu_UI extends JFrame implements ActionListener {
             ev.printStackTrace();
         }
     }
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
        Menu_UI a=new Menu_UI();
         a.menu_ui();
-    }
+    }*/
 
     @Override
     public void actionPerformed(ActionEvent e) {
